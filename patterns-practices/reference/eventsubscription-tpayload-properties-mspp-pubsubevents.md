@@ -5,19 +5,17 @@ ms:assetid: 'Properties.T:Microsoft.Practices.Prism.PubSubEvents.EventSubscripti
 ms:mtpsurl: 'eventsubscription-tpayload-properties-mspp-pubsubevents.md'
 ---
 
-Prism Class Library
+# EventSubscription&lt;TPayload&gt; Properties
 
-EventSubscription&lt;(Of &lt;(TPayload&gt;)&gt;) Properties
-===========================================================
+The [EventSubscription&lt;TPayload&gt;](https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.eventsubscription%601) type exposes the following members.
 
-The [EventSubscription&lt;(Of &lt;(TPayload&gt;)&gt;)](https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.eventsubscription%601) type exposes the following members.
-
-Properties
-----------
-
-<span id="propertyTableToggle"></span>
+## Properties
 <table>
-
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th> </th>
@@ -30,14 +28,14 @@ Properties
 <td><img src="https://msdn.microsoft.com/en-us/Dn736170.pubproperty(en-us,PandP.50).gif" title="Public property" /></td>
 <td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.eventsubscription%601.action">Action</a></td>
 <td><div class="summary">
-Gets the target <a href="http://msdn.microsoft.com/en-us/library/018hxwa8">Action&lt;(Of &lt;(T&gt;)&gt;)</a> that is referenced by the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.idelegatereference">IDelegateReference</a>.
+Gets the target <a href="http://msdn.microsoft.com/en-us/library/018hxwa8">Action&lt;T&gt</a> that is referenced by the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.idelegatereference">IDelegateReference</a>.
 </div></td>
 </tr>
 <tr class="even">
 <td><img src="https://msdn.microsoft.com/en-us/Dn736170.pubproperty(en-us,PandP.50).gif" title="Public property" /></td>
 <td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.eventsubscription%601.filter">Filter</a></td>
 <td><div class="summary">
-Gets the target <a href="http://msdn.microsoft.com/en-us/library/bfcke1bz">Predicate&lt;(Of &lt;(T&gt;)&gt;)</a> that is referenced by the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.idelegatereference">IDelegateReference</a>.
+Gets the target <a href="http://msdn.microsoft.com/en-us/library/bfcke1bz">Predicate&lt;T&gt;</a> that is referenced by the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.idelegatereference">IDelegateReference</a>.
 </div></td>
 </tr>
 <tr class="odd">
@@ -50,10 +48,8 @@ Gets or sets a <a href="https://msdn.microsoft.com/library/microsoft.practices.p
 </tbody>
 </table>
 
-See Also
---------
+## See Also
 
-
-[EventSubscription&lt;(Of &lt;(TPayload&gt;)&gt;) Class](https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.eventsubscription%601)
+[EventSubscription&lt;TPayload&gt; Class](https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents.eventsubscription%601)
 
 [Microsoft.Practices.Prism.PubSubEvents Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.pubsubevents)

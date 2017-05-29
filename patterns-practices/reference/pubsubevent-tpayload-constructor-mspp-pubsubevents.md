@@ -10,7 +10,9 @@ Initializes a new instance of the [PubSubEvent&lt;TPayload&gt;](pubsubevent-tpay
 
 **Namespace:** [Microsoft.Practices.Prism.PubSubEvents](mspp-pubsubevents-namespace.md)
 
-**Assembly:** Microsoft.Practices.Prism.PubSubEvents (in Microsoft.Practices.Prism.PubSubEvents.dll) Version: 1.0.0.0 (1.0.0.0)
+**Assembly:** Microsoft.Practices.Prism.PubSubEvents (in Microsoft.Practices.Prism.PubSubEvents.dll)
+
+ **Version:** 1.0.0.0 (1.0.0.0)
 
 ## Syntax
 

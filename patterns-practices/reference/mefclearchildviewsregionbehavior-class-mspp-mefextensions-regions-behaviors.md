@@ -25,7 +25,7 @@ Public Class MefClearChildViewsRegionBehavior
 
 ## Remarks
 
-This allows the MefBootstrapper to provide this class as a default implementation. If another implementation is found, this export will not be used. .
+This allows the MefBootstrapper to provide this class as a default implementation. If another implementation is found, this export will not be used.
 
 ## Inheritance Hierarchy
 

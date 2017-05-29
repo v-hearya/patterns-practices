@@ -5,19 +5,19 @@ ms:assetid: 'Events.T:Microsoft.Practices.Prism.Modularity.ModuleTypeLoadingExce
 ms:mtpsurl: 'moduletypeloadingexception-events-mspp-modularity.md'
 ---
 
-Prism Class Library
+# ModuleTypeLoadingException Events
 
-ModuleTypeLoadingException Events
-=================================
 
-The [ModuleTypeLoadingException](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduletypeloadingexception) type exposes the following members.
+The [ModuleTypeLoadingException](https://msdn.microsoft.com/en-us/library/microsoft.practices.prism.modularity.moduletypeloadingexception(v=pandp.50)) type exposes the following members.
 
-Events
-------
+## Events
 
-<span id="eventTableToggle"></span>
 <table>
-
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th> </th>
@@ -37,10 +37,8 @@ Occurs when an exception is serialized to create an exception state object that 
 </tbody>
 </table>
 
-See Also
---------
+## See Also
 
+[ModuleTypeLoadingException Class](https://msdn.microsoft.com/en-us/library/microsoft.practices.prism.modularity.moduletypeloadingexception(v=pandp.50))
 
-[ModuleTypeLoadingException Class](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduletypeloadingexception)
-
-[Microsoft.Practices.Prism.Modularity Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity)
+[Microsoft.Practices.Prism.Modularity Namespace](https://msdn.microsoft.com/en-us/library/microsoft.practices.prism.modularity(v=pandp.50))
