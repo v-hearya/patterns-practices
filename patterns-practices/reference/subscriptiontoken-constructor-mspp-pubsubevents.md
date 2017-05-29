@@ -22,7 +22,7 @@ public SubscriptionToken(
 ### Parameters
 
 *unsubscribeAction*<br/> 
-Type: [System.Action](http://msdn.microsoft.com/en-us/library/018hxwa8)<[SubscriptionToken](https://msdn.microsoft.com/en-us/library/microsoft.practices.prism.pubsubevents.subscriptiontoken)>
+Type: [System.Action](http://msdn.microsoft.com/en-us/library/018hxwa8)&lt;[SubscriptionToken](https://msdn.microsoft.com/en-us/library/microsoft.practices.prism.pubsubevents.subscriptiontoken)&gt;
 
 ```VB
 'Declaration
