@@ -11,7 +11,6 @@ The [ViewModelLocationProvider](https://msdn.microsoft.com/library/microsoft.pra
 
 ## Methods
 
-<span id="methodTableToggle"></span>
 <table>
 
 <thead>

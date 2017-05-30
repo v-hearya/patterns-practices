@@ -5,7 +5,6 @@ ms:assetid: 'P:Microsoft.Practices.Prism.Interactivity.CommandBehaviorBase\`1.Co
 ms:mtpsurl: 'commandbehaviorbase-t-commandparameter-property-mspp-interactivity.md'
 ---
 
-Prism Class Library
 
 # CommandBehaviorBase&lt;T&gt;.CommandParameter Property
 
@@ -13,7 +12,9 @@ The parameter to supply the command during execution
 
 **Namespace:** [Microsoft.Practices.Prism.Interactivity](mspp-interactivity-namespace.md)
 
-**Assembly:** Microsoft.Practices.Prism.Interactivity (in Microsoft.Practices.Prism.Interactivity.dll) Version: 5.0.0.0 (5.0.0.0)
+**Assembly:** Microsoft.Practices.Prism.Interactivity (in Microsoft.Practices.Prism.Interactivity.dll)
+
+**Version:** 5.0.0.0 (5.0.0.0)
 
 ## Syntax
 
@@ -39,7 +40,9 @@ The parameter to supply the command during execution
 
 **Namespace:** [Microsoft.Practices.Prism.Interactivity](mspp-interactivity-namespace.md)
 
-**Assembly:** Microsoft.Practices.Prism.Interactivity (in Microsoft.Practices.Prism.Interactivity.dll) Version: 5.0.0.0 (5.0.0.0)
+**Assembly:** Microsoft.Practices.Prism.Interactivity (in Microsoft.Practices.Prism.Interactivity.dll)
+
+**Version:** 5.0.0.0 (5.0.0.0)
 
 ## Syntax
 

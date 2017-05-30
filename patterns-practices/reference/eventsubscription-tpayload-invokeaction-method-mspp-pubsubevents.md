@@ -11,7 +11,9 @@ Invokes the specified [Action&lt;T&gt;](http://msdn.microsoft.com/en-us/library/
 
 **Namespace:** [Microsoft.Practices.Prism.PubSubEvents](mspp-pubsubevents-namespace.md)
 
-**Assembly:** Microsoft.Practices.Prism.PubSubEvents (in Microsoft.Practices.Prism.PubSubEvents.dll) Version: 1.0.0.0 (1.0.0.0)
+**Assembly:** Microsoft.Practices.Prism.PubSubEvents (in Microsoft.Practices.Prism.PubSubEvents.dll)
+
+**Version:** 1.0.0.0 (1.0.0.0)
 
 ## Syntax
 

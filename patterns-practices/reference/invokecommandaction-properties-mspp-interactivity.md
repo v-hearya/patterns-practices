@@ -5,7 +5,6 @@ ms:assetid: 'Properties.T:Microsoft.Practices.Prism.Interactivity.InvokeCommandA
 ms:mtpsurl: 'invokecommandaction-properties-mspp-interactivity.md'
 ---
 
-Prism Class Library
 
 # InvokeCommandAction Properties
 
@@ -26,12 +25,12 @@ The [InvokeCommandAction](invokecommandaction-class-mspp-interactivity.md) type 
 <tr class="odd">
 <td><img src="https://msdn.microsoft.com/en-us/Dn683973.protproperty(en-us,PandP.50).gif" title="Protected property" /></td>
 <td>AssociatedObject</td>
-<td>(Inherited from TriggerAction&lt;(Of &lt;(<a href="http://msdn.microsoft.com/en-us/library/ms590078">UIElement</a>&gt;)&gt;).)</td>
+<td>(Inherited from TriggerAction(Of <a href="http://msdn.microsoft.com/en-us/library/ms590078">UIElement</a>.)</td>
 </tr>
 <tr class="even">
 <td><img src="https://msdn.microsoft.com/en-us/Dn683973.protproperty(en-us,PandP.50).gif" title="Protected property" /></td>
 <td>AssociatedObjectTypeConstraint</td>
-<td>(Inherited from TriggerAction&lt;(Of &lt;(<a href="http://msdn.microsoft.com/en-us/library/ms590078">UIElement</a>&gt;)&gt;).)</td>
+<td>(Inherited from TriggerAction(Of <a href="http://msdn.microsoft.com/en-us/library/ms590078">UIElement</a>.)</td>
 </tr>
 <tr class="odd">
 <td><img src="https://msdn.microsoft.com/en-us/Dn683973.pubproperty(en-us,PandP.50).gif" title="Public property" /></td>

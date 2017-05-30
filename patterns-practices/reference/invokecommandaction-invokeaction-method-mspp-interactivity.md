@@ -5,7 +5,6 @@ ms:assetid: 'M:Microsoft.Practices.Prism.Interactivity.InvokeCommandAction.Invok
 ms:mtpsurl: 'invokecommandaction-invokeaction-method-mspp-interactivity.md'
 ---
 
-Prism Class Library
 
 # InvokeCommandAction.InvokeAction Method
 
@@ -13,7 +12,9 @@ Public wrapper of the Invoke method.
 
 **Namespace:** [Microsoft.Practices.Prism.Interactivity](mspp-interactivity-namespace.md)
 
-**Assembly:** Microsoft.Practices.Prism.Interactivity (in Microsoft.Practices.Prism.Interactivity.dll) Version: 5.0.0.0 (5.0.0.0)
+**Assembly:** Microsoft.Practices.Prism.Interactivity (in Microsoft.Practices.Prism.Interactivity.dll)
+
+**Version:** 5.0.0.0 (5.0.0.0)
 
 ## Syntax
 

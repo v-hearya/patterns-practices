@@ -5,7 +5,6 @@ ms:assetid: 'Methods.T:Microsoft.Practices.Prism.MefExtensions.Regions.Behaviors
 ms:mtpsurl: 'mefclearchildviewsregionbehavior-methods-mspp-mefextensions-regions-behaviors.md'
 ---
 
-Prism Class Library
 
 # MefClearChildViewsRegionBehavior Methods
 

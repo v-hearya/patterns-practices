@@ -5,7 +5,6 @@ ms:assetid: 'T:Microsoft.Practices.Prism.Mvvm.BindableBase'
 ms:mtpsurl: 'bindablebase-class-mspp-mvvm.md'
 ---
 
-Prism Class Library
 
 # BindableBase Class
 
@@ -13,7 +12,9 @@ Implementation of [INotifyPropertyChanged](http://msdn.microsoft.com/en-us/libra
 
 **Namespace:** [Microsoft.Practices.Prism.Mvvm](mspp-mvvm-namespace.md)
 
-**Assembly:** Microsoft.Practices.Prism.Mvvm (in Microsoft.Practices.Prism.Mvvm.dll) Version: 1.0.0.0 (1.0.0.0)
+**Assembly:** Microsoft.Practices.Prism.Mvvm (in Microsoft.Practices.Prism.Mvvm.dll)
+
+**Version:** 1.0.0.0 (1.0.0.0)
 
 ## Syntax
 

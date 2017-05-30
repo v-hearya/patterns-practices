@@ -11,7 +11,9 @@ Creates a new instance of BackgroundEventSubscription.
 
 **Namespace:** [Microsoft.Practices.Prism.Events](mspp-events-namespace.md)
 
-**Assembly:** Microsoft.Practices.Prism.Composition (in Microsoft.Practices.Prism.Composition.dll) Version: 5.0.0.0 (5.0.0.0)
+**Assembly:** Microsoft.Practices.Prism.Composition (in Microsoft.Practices.Prism.Composition.dll) 
+
+**Version:** 5.0.0.0 (5.0.0.0)
 
 ## Syntax
 
@@ -77,7 +79,9 @@ Creates a new instance of BackgroundEventSubscription.
 
 **Namespace:** [Microsoft.Practices.Prism.Events](mspp-events-namespace.md)
 
-**Assembly:** Microsoft.Practices.Prism.Composition (in Microsoft.Practices.Prism.Composition.dll) Version: 5.0.0.0 (5.0.0.0)
+**Assembly:** Microsoft.Practices.Prism.Composition (in Microsoft.Practices.Prism.Composition.dll)
+
+**Version:** 5.0.0.0 (5.0.0.0)
 
 ## Syntax
 

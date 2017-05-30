@@ -30,7 +30,7 @@ Type: [System.ComponentModel.PropertyChangedEventHandler](http://msdn.microsoft.
 
 [INotifyPropertyChanged.PropertyChanged](http://msdn.microsoft.com/en-us/library/ms133023)
 
-# See Also
+## See Also
 
 [BindableBase Class](bindablebase-class-mspp-mvvm.md)
 

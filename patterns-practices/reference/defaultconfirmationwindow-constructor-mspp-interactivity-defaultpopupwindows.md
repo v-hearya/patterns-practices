@@ -5,7 +5,6 @@ ms:assetid: 'M:Microsoft.Practices.Prism.Interactivity.DefaultPopupWindows.Defau
 ms:mtpsurl: 'defaultconfirmationwindow-constructor-mspp-interactivity-defaultpopupwindows.md'
 ---
 
-Prism Class Library
 
 # DefaultConfirmationWindow Constructor
 
@@ -28,7 +27,6 @@ Public Sub New
 ```
 
 ## See Also
-
 
 [DefaultConfirmationWindow Class](defaultconfirmationwindow-class-mspp-interactivity-defaultpopupwindows.md)
 

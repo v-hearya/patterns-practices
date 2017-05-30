@@ -32,4 +32,3 @@ Public NotInheritable Class ViewModelLocationProvider
 
 ## See Also
 [ViewModelLocationProvider Members](viewmodellocationprovider-members-mspp-mvvm.md)
-
