@@ -4,10 +4,11 @@ Title: 'RegionViewRegistry Members (Microsoft.Practices.Prism.Regions)'
 ms:assetid: 'AllMembers.T:Microsoft.Practices.Prism.Regions.RegionViewRegistry'
 ms:mtpsurl: 'regionviewregistry-members-mspp-regions.md'
 ---
-
+
+
 # RegionViewRegistry Members
 
-The [RegionViewRegistry](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionviewregistry) type exposes the following members.
+The [RegionViewRegistry](/patterns-practices/reference/regionviewregistry-class-mspp-regions) type exposes the following members.
 
 ## Constructors
 
@@ -24,9 +25,9 @@ The [RegionViewRegistry](https://msdn.microsoft.com/library/microsoft.practices.
 <tbody>
 <tr class="odd">
 <td>![Public method](/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionviewregistry.">RegionViewRegistry</a></td>
+<td><a href="/patterns-practices/reference/regionviewregistry-class-mspp-regions.">RegionViewRegistry</a></td>
 <td><div class="summary">
-Creates a new instance of the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionviewregistry">RegionViewRegistry</a> class.
+Creates a new instance of the <a href="/patterns-practices/reference/regionviewregistry-class-mspp-regions">RegionViewRegistry</a> class.
 </div></td>
 </tr>
 </tbody>
@@ -47,7 +48,7 @@ Creates a new instance of the <a href="https://msdn.microsoft.com/library/micros
 <tbody>
 <tr class="odd">
 <td>![Protected method](/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionviewregistry.createinstance(system.type)">CreateInstance</a></td>
+<td><a href="/patterns-practices/reference/regionviewregistry-class-mspp-regions.createinstance(system.type)">CreateInstance</a></td>
 <td><div class="summary">
 Creates an instance of a registered view <a href="http://msdn.microsoft.com/en-us/library/42892f65">Type</a>.
 </div></td>
@@ -70,7 +71,7 @@ Allows an object to try to free resources and perform other cleanup operations b
 </tr>
 <tr class="even">
 <td>![Public method](/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionviewregistry.getcontents(system.string)">GetContents</a></td>
+<td><a href="/patterns-practices/reference/regionviewregistry-class-mspp-regions.getcontents(system.string)">GetContents</a></td>
 <td><div class="summary">
 Returns the contents registered for a region.
 </div></td>
@@ -101,14 +102,14 @@ Creates a shallow copy of the current <a href="http://msdn.microsoft.com/en-us/l
 </tr>
 <tr class="even">
 <td>![Public method](/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionviewregistry.registerviewwithregion(system.string%2csystem.func%7bsystem.object%7d)">RegisterViewWithRegion(String, Func&lt;(Of &lt;(Object&gt;)&gt;))</a></td>
+<td><a href="/patterns-practices/reference/regionviewregistry-class-mspp-regions.registerviewwithregion(system.string%2csystem.func%7bsystem.object%7d)">RegisterViewWithRegion(String, Func&lt;(Of &lt;(Object&gt;)&gt;))</a></td>
 <td><div class="summary">
 Registers a delegate that can be used to retrieve the content associated with a region name.
 </div></td>
 </tr>
 <tr class="odd">
 <td>![Public method](/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionviewregistry.registerviewwithregion(system.string%2csystem.type)">RegisterViewWithRegion(String, Type)</a></td>
+<td><a href="/patterns-practices/reference/regionviewregistry-class-mspp-regions.registerviewwithregion(system.string%2csystem.type)">RegisterViewWithRegion(String, Type)</a></td>
 <td><div class="summary">
 Registers a content type with a region name.
 </div></td>
@@ -139,7 +140,7 @@ Returns a string that represents the current object.
 <tbody>
 <tr class="odd">
 <td>![Public event](/images/pubevent.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionviewregistry.contentregistered">ContentRegistered</a></td>
+<td><a href="/patterns-practices/reference/regionviewregistry-class-mspp-regions.contentregistered">ContentRegistered</a></td>
 <td><div class="summary">
 Occurs whenever a new view is registered.
 </div></td>
@@ -148,6 +149,7 @@ Occurs whenever a new view is registered.
 </table>
 
 ## See Also
-[RegionViewRegistry Class](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionviewregistry)
 
-[Microsoft.Practices.Prism.Regions Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.regions)
+[RegionViewRegistry Class](/patterns-practices/reference/regionviewregistry-class-mspp-regions)
+
+[Microsoft.Practices.Prism.Regions Namespace](/patterns-practices/reference/mspp-regions-namespace)
