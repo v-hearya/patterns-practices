@@ -4,10 +4,11 @@ Title: 'SelectorRegionAdapter Members (Microsoft.Practices.Prism.Regions)'
 ms:assetid: 'AllMembers.T:Microsoft.Practices.Prism.Regions.SelectorRegionAdapter'
 ms:mtpsurl: 'selectorregionadapter-members-mspp-regions.md'
 ---
-
+
+
 # SelectorRegionAdapter Members
 
-The [SelectorRegionAdapter](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.selectorregionadapter) type exposes the following members.
+The [SelectorRegionAdapter](/patterns-practices/reference/selectorregionadapter-class-mspp-regions) type exposes the following members.
 
 ## Constructors
 
@@ -24,9 +25,9 @@ The [SelectorRegionAdapter](https://msdn.microsoft.com/library/microsoft.practic
 <tbody>
 <tr class="odd">
 <td>![Public method](/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.selectorregionadapter.">SelectorRegionAdapter</a></td>
+<td><a href="/patterns-practices/reference/selectorregionadapter-class-mspp-regions">SelectorRegionAdapter</a></td>
 <td><div class="summary">
-Initializes a new instance of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.selectorregionadapter">SelectorRegionAdapter</a>.
+Initializes a new instance of <a href="/patterns-practices/reference/selectorregionadapter-class-mspp-regions">SelectorRegionAdapter</a>.
 </div></td>
 </tr>
 </tbody>
@@ -47,15 +48,15 @@ Initializes a new instance of <a href="https://msdn.microsoft.com/library/micros
 <tbody>
 <tr class="odd">
 <td>![Protected method](/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.selectorregionadapter.adapt(microsoft.practices.prism.regions.iregion%2csystem.windows.controls.primitives.selector)">Adapt</a></td>
+<td><a href="/patterns-practices/reference/selectorregionadapter-adapt-method-mspp-regions">Adapt</a></td>
 <td><div class="summary">
-Adapts an <a href="http://msdn.microsoft.com/en-us/library/ms595227">Selector</a> to an <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.iregion">IRegion</a>.
+Adapts an <a href="http://msdn.microsoft.com/en-us/library/ms595227">Selector</a> to an <a href="/patterns-practices/reference/iregion-interface-mspp-regions">IRegion</a>.
 </div>
 (Overrides <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.adapt(microsoft.practices.prism.regions.iregion%2c%600)">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;).Adapt(IRegion, T)</a>.)</td>
 </tr>
 <tr class="even">
 <td>![Protected method](/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.selectorregionadapter.attachbehaviors(microsoft.practices.prism.regions.iregion%2csystem.windows.controls.primitives.selector)">AttachBehaviors</a></td>
+<td><a href="/patterns-practices/reference/selectorregionadapter-attachbehaviors-method-mspp-regions">AttachBehaviors</a></td>
 <td><div class="summary">
 Attach new behaviors.
 </div>
@@ -65,15 +66,15 @@ Attach new behaviors.
 <td>![Protected method](/images/protmethod.gif)</td>
 <td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.attachdefaultbehaviors(microsoft.practices.prism.regions.iregion%2c%600)">AttachDefaultBehaviors</a></td>
 <td><div class="summary">
-This method adds the default behaviors by using the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.iregionbehaviorfactory">IRegionBehaviorFactory</a> object.
+This method adds the default behaviors by using the <a href="/patterns-practices/reference/iregionbehaviorfactory-interface-mspp-regions">IRegionBehaviorFactory</a> object.
 </div>
 (Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;)</a>.)</td>
 </tr>
 <tr class="even">
 <td>![Protected method](/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.selectorregionadapter.createregion">CreateRegion</a></td>
+<td><a href="/patterns-practices/reference/selectorregionadapter-createregion-method-mspp-regions">CreateRegion</a></td>
 <td><div class="summary">
-Creates a new instance of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.region">Region</a>.
+Creates a new instance of <a href="/patterns-practices/reference/region-class-mspp-regions">Region</a>.
 </div>
 (Overrides <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.createregion">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;).CreateRegion()()()</a>.)</td>
 </tr>
@@ -113,7 +114,7 @@ Gets the <a href="http://msdn.microsoft.com/en-us/library/42892f65">Type</a> of 
 <td>![Public method](/images/public-method.gif)</td>
 <td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.initialize(%600%2csystem.string)">Initialize</a></td>
 <td><div class="summary">
-Adapts an object and binds it to a new <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.iregion">IRegion</a>.
+Adapts an object and binds it to a new <a href="/patterns-practices/reference/iregion-interface-mspp-regions">IRegion</a>.
 </div>
 (Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;)</a>.)</td>
 </tr>
@@ -161,6 +162,7 @@ Gets or sets the factory used to create the region behaviors to attach to the cr
 </table>
 
 ## See Also
-[SelectorRegionAdapter Class](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.selectorregionadapter)
 
-[Microsoft.Practices.Prism.Regions Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.regions)
+[SelectorRegionAdapter Class](/patterns-practices/reference/selectorregionadapter-class-mspp-regions)
+
+[Microsoft.Practices.Prism.Regions Namespace](/patterns-practices/reference/mspp-regions-namespace)
