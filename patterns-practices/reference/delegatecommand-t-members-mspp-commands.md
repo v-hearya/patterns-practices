@@ -4,10 +4,11 @@ Title: 'DelegateCommand(T) Members (Microsoft.Practices.Prism.Commands)'
 ms:assetid: 'AllMembers.T:Microsoft.Practices.Prism.Commands.DelegateCommand\`1'
 ms:mtpsurl: 'delegatecommand-t-members-mspp-commands.md'
 ---
-
-# DelegateCommand&lt;(Of &lt;(T&gt;)&gt;) Members
 
-The [DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601) type exposes the following members.
+
+# DelegateCommand&lt;T&gt; Members
+
+The [DelegateCommand&lt;T&gt;](/patterns-practices/reference/delegatecommand-t-class-mspp-commands) type exposes the following members.
 
 ## Constructors
 
@@ -24,16 +25,16 @@ The [DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)](https://msdn.microsoft.com/library
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601.">DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)(Action&lt;(Of &lt;(T&gt;)&gt;))</a></td>
+<td>DelegateCommand&lt;T&gt;(Action&lt;T&gt;)</a></td>
 <td><div class="summary">
-Initializes a new instance of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601">DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)</a>.
+Initializes a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands">DelegateCommand&lt;T&gt;</a>.
 </div></td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601.">DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)(Action&lt;(Of &lt;(T&gt;)&gt;), Func&lt;(Of &lt;(T, Boolean&gt;)&gt;))</a></td>
+<td>>DelegateCommand&lt;T&gt;(Action&lt;T&gt;, Func&lt;T, Boolean&gt;)</a></td>
 <td><div class="summary">
-Initializes a new instance of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601">DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)</a>.
+Initializes a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands">DelegateCommand&lt;T&gt;</a>.
 </div></td>
 </tr>
 </tbody>
@@ -54,18 +55,18 @@ Initializes a new instance of <a href="https://msdn.microsoft.com/library/micros
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601.canexecute(%600)">CanExecute(T)</a></td>
+<td><a href="/patterns-practices/reference/delegatecommand-t-canexecute-method-t-mspp-commands">CanExecute(T)</a></td>
 <td><div class="summary">
-Determines if the command can execute by invoked the <a href="http://msdn.microsoft.com/en-us/library/bb549151">Func&lt;(Of &lt;(T, TResult&gt;)&gt;)</a> provided during construction.
+Determines if the command can execute by invoked the <a href="http://msdn.microsoft.com/en-us/library/bb549151"> Func&lt;T, TResult&gt;</a> provided during construction.
 </div></td>
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.canexecute(system.object)">CanExecute(Object)</a></td>
+<td><a href="/patterns-practices/reference/delegatecommandbase-canexecute-method-mspp-commands">CanExecute(Object)</a></td>
 <td><div class="summary">
-Determines if the command can execute with the provided parameter by invoking the <a href="http://msdn.microsoft.com/en-us/library/bb549151">Func&lt;(Of &lt;(T, TResult&gt;)&gt;)</a> supplied during construction.
+Determines if the command can execute with the provided parameter by invoking the <a href="http://msdn.microsoft.com/en-us/library/bb549151"> Func&lt;T, TResult&gt;</a> supplied during construction.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase">DelegateCommandBase</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
@@ -77,18 +78,18 @@ Determines whether the specified <a href="http://msdn.microsoft.com/en-us/librar
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601.execute(%600)">Execute(T)</a></td>
+<td><a href="/patterns-practices/reference/delegatecommand-t-execute-method-t-mspp-commands">Execute(T)</a></td>
 <td><div class="summary">
 Executes the command and invokes the <a href="http://msdn.microsoft.com/en-us/library/018hxwa8">Action&lt;(Of &lt;(T&gt;)&gt;)</a> provided during construction.
 </div></td>
 </tr>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.execute(system.object)">Execute(Object)</a></td>
+<td><a href="/patterns-practices/reference/delegatecommandbase-execute-method-mspp-commands">Execute(Object)</a></td>
 <td><div class="summary">
 Executes the command with the provided parameter by invoking the <a href="http://msdn.microsoft.com/en-us/library/018hxwa8">Action&lt;(Of &lt;(T&gt;)&gt;)</a> supplied during construction.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase">DelegateCommandBase</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
@@ -100,16 +101,16 @@ Allows an object to try to free resources and perform other cleanup operations b
 </tr>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)![Static member](/patterns-practices/reference/images/static.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601.fromasynchandler(system.func%7b%600%2csystem.threading.tasks.task%7d)">FromAsyncHandler(Func&lt;(Of &lt;(T, Task&gt;)&gt;))</a></td>
+<td><a href="/patterns-practices/reference/delegatecommand-t-fromasynchandler-method-func-t-task-mspp-commands">FromAsyncHandler(Func&lt;T, Task&gt;)</a></td>
 <td><div class="summary">
-Factory method to create a new instance of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601">DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)</a> from an awaitable handler method.
+Factory method to create a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands"> DelegateCommand&lt;T&gt; </a> from an awaitable handler method.
 </div></td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)![Static member](/patterns-practices/reference/images/static.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601.fromasynchandler(system.func%7b%600%2csystem.threading.tasks.task%7d%2csystem.func%7b%600%2csystem.boolean%7d)">FromAsyncHandler(Func&lt;(Of &lt;(T, Task&gt;)&gt;), Func&lt;(Of &lt;(T, Boolean&gt;)&gt;))</a></td>
+<td><a href="/patterns-practices/reference/delegatecommand-t-fromasynchandler-method-func-t-task-func-t-boolean-mspp-commands">FromAsyncHandler(Func&lt;T, Task&gt;, Func&lt;T, Boolean&gt;)</a></td>
 <td><div class="summary">
-Factory method to create a new instance of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601">DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)</a> from an awaitable handler method.
+Factory method to create a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands"> DelegateCommand&lt;T&gt; </a> from an awaitable handler method.
 </div></td>
 </tr>
 <tr class="odd">
@@ -138,31 +139,31 @@ Creates a shallow copy of the current <a href="http://msdn.microsoft.com/en-us/l
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.oncanexecutechanged">OnCanExecuteChanged</a></td>
+<td><a href="/patterns-practices/reference/delegatecommandbase-oncanexecutechanged-method-mspp-commands">OnCanExecuteChanged</a></td>
 <td><div class="summary">
 Raises <a href="http://msdn.microsoft.com/en-us/library/ms523106">CanExecuteChanged</a> on the UI thread so every command invoker can requery <a href="http://msdn.microsoft.com/en-us/library/ms604093">CanExecute(Object)</a>.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase">DelegateCommandBase</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.onisactivechanged">OnIsActiveChanged</a></td>
+<td><a href="/patterns-practices/reference/delegatecommandbase-oncanexecutechanged-method-mspp-commands">OnIsActiveChanged</a></td>
 <td><div class="summary">
-This raises the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.isactivechanged">IsActiveChanged</a> event.
+This raises the <a href="/patterns-practices/reference/delegatecommandbase-isactivechanged-event-mspp-commands">IsActiveChanged</a> event.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase">DelegateCommandBase</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.raisecanexecutechanged">RaiseCanExecuteChanged</a></td>
+<td><a href="/patterns-practices/reference/delegatecommandbase-raisecanexecutechanged-method-mspp-commands">RaiseCanExecuteChanged</a></td>
 <td><div class="summary">
-Raises <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.canexecutechanged">CanExecuteChanged</a> on the UI thread so every command invoker can requery to check if the command can execute.
+Raises <a href="/patterns-practices/reference/delegatecommandbase-canexecutechanged-event-mspp-commands">CanExecuteChanged</a> on the UI thread so every command invoker can requery to check if the command can execute.
 <div>
 <h2 id="remarks">Remarks</h2>
-Note that this will trigger the execution of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.canexecute(system.object)">CanExecute(Object)</a> once for each invoker.
+Note that this will trigger the execution of <a href="/patterns-practices/reference/delegatecommandbase-canexecute-method-mspp-commands">CanExecute(Object)</a> once for each invoker.
 </div>
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase">DelegateCommandBase</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
@@ -180,8 +181,8 @@ Returns a string that represents the current object.
 
 |                                                                                                | Name                                                                                                                        | Description                                                                                                                  |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| ![Protected field](/patterns-practices/reference/images/protfield.gif) | [\_canExecuteMethod](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase._canexecutemethod) | (Inherited from [DelegateCommandBase](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase).) |
-| ![Protected field](/patterns-practices/reference/images/protfield.gif) | [\_executeMethod](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase._executemethod)       | (Inherited from [DelegateCommandBase](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase).) |
+| ![Protected field](/patterns-practices/reference/images/protfield.gif) | [\_canExecuteMethod](/patterns-practices/reference/canexecutemthd-field) | (Inherited from [DelegateCommandBase](/patterns-practices/reference/delegatecommandbase-class-mspp-commands).) |
+| ![Protected field](/patterns-practices/reference/images/protfield.gif) | [\_executeMethod](/patterns-practices/reference/executemthd-field)       | (Inherited from [DelegateCommandBase](/patterns-practices/reference/delegatecommandbase-class-mspp-commands).) |
 
 ## Properties
 
@@ -198,11 +199,11 @@ Returns a string that represents the current object.
 <tbody>
 <tr class="odd">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.isactive">IsActive</a></td>
+<td><a href="/patterns-practices/reference/delegatecommandbase-isactive-property-mspp-commands">IsActive</a></td>
 <td><div class="summary">
 Gets or sets a value indicating whether the object is active.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase">DelegateCommandBase</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
 </tbody>
 </table>
@@ -222,24 +223,25 @@ Gets or sets a value indicating whether the object is active.
 <tbody>
 <tr class="odd">
 <td>![Public event](/patterns-practices/reference/images/pubevent.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.canexecutechanged">CanExecuteChanged</a></td>
+<td><a href="/patterns-practices/reference/delegatecommandbase-canexecutechanged-event-mspp-commands">CanExecuteChanged</a></td>
 <td><div class="summary">
 Occurs when changes occur that affect whether or not the command should execute. You must keep a hard reference to the handler to avoid garbage collection and unexpected results. See remarks for more information.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase">DelegateCommandBase</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
 <tr class="even">
 <td>![Public event](/patterns-practices/reference/images/pubevent.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.isactivechanged">IsActiveChanged</a></td>
+<td><a href="/patterns-practices/reference/delegatecommandbase-isactivechanged-event-mspp-commands">IsActiveChanged</a></td>
 <td><div class="summary">
-Fired if the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.isactive">IsActive</a> property changes.
+Fired if the <a href="/patterns-practices/reference/delegatecommandbase-isactive-property-mspp-commands">IsActive</a> property changes.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase">DelegateCommandBase</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
 </tbody>
 </table>
 
 ## See Also
-[DelegateCommand&lt;(Of &lt;(T&gt;)&gt;) Class](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601)
 
-[Microsoft.Practices.Prism.Commands Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.commands)
+[DelegateCommand&lt;T&gt; Class](/patterns-practices/reference/delegatecommand-t-class-mspp-commands)
+
+[Microsoft.Practices.Prism.Commands Namespace](/patterns-practices/reference/mspp-commands-namespace)
