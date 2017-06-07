@@ -4,10 +4,11 @@ Title: 'EmptyLogger Members (Microsoft.Practices.Prism.Logging)'
 ms:assetid: 'AllMembers.T:Microsoft.Practices.Prism.Logging.EmptyLogger'
 ms:mtpsurl: 'emptylogger-members-mspp-logging.md'
 ---
-
+
+
 # EmptyLogger Members
 
-The [EmptyLogger](https://msdn.microsoft.com/library/microsoft.practices.prism.logging.emptylogger) type exposes the following members.
+The [EmptyLogger](/patterns-practices/reference/emptylogger-class-mspp-logging) type exposes the following members.
 
 ## Constructors
 
@@ -24,9 +25,9 @@ The [EmptyLogger](https://msdn.microsoft.com/library/microsoft.practices.prism.l
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.logging.emptylogger.">EmptyLogger</a></td>
+<td>EmptyLogger</td>
 <td><div class="summary">
-Initializes a new instance of the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.logging.emptylogger">EmptyLogger</a> class
+Initializes a new instance of the <a href="/patterns-practices/reference/emptylogger-class-mspp-logging">EmptyLogger</a> class
 </div></td>
 </tr>
 </tbody>
@@ -79,7 +80,7 @@ Gets the <a href="http://msdn.microsoft.com/en-us/library/42892f65">Type</a> of 
 </tr>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.logging.emptylogger.log(system.string%2cmicrosoft.practices.prism.logging.category%2cmicrosoft.practices.prism.logging.priority)">Log</a></td>
+<td><a href="/patterns-practices/reference/emptylogger-log-method-mspp-logging">Log</a></td>
 <td><div class="summary">
 This method does nothing.
 </div></td>
@@ -104,6 +105,7 @@ Returns a string that represents the current object.
 </table>
 
 ## See Also
-[EmptyLogger Class](https://msdn.microsoft.com/library/microsoft.practices.prism.logging.emptylogger)
 
-[Microsoft.Practices.Prism.Logging Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.logging)
+[EmptyLogger Class](/patterns-practices/reference/emptylogger-class-mspp-logging)
+
+[Microsoft.Practices.Prism.Logging Namespace](/patterns-practices/reference/mspp-logging-namespace)
