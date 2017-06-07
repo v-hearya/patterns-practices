@@ -4,10 +4,11 @@ Title: 'InteractionRequestTrigger Members (Microsoft.Practices.Prism.Interactivi
 ms:assetid: 'AllMembers.T:Microsoft.Practices.Prism.Interactivity.InteractionRequest.InteractionRequestTrigger'
 ms:mtpsurl: 'interactionrequesttrigger-members-mspp-interactivity-interactionrequest.md'
 ---
-
+
+
 # InteractionRequestTrigger Members
 
-The [InteractionRequestTrigger](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequesttrigger) type exposes the following members.
+The [InteractionRequestTrigger](/patterns-practices/reference/interactionrequesttrigger-class-mspp-interactivity-interactionrequest) type exposes the following members.
 
 ## Constructors
 
@@ -24,9 +25,9 @@ The [InteractionRequestTrigger](https://msdn.microsoft.com/library/microsoft.pra
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequesttrigger.">InteractionRequestTrigger</a></td>
+<td>InteractionRequestTrigger</td>
 <td><div class="summary">
-Initializes a new instance of the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequesttrigger">InteractionRequestTrigger</a> class
+Initializes a new instance of the <a href="/patterns-practices/reference/interactionrequesttrigger-class-mspp-interactivity-interactionrequest">InteractionRequestTrigger</a> class
 </div></td>
 </tr>
 </tbody>
@@ -572,6 +573,7 @@ Occurs when the <a href="http://msdn.microsoft.com/en-us/library/ms602734">Freez
 </table>
 
 ## See Also
-[InteractionRequestTrigger Class](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequesttrigger)
+
+[InteractionRequestTrigger Class](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequesttrigger)
 
 [Microsoft.Practices.Prism.Interactivity.InteractionRequest Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest)
