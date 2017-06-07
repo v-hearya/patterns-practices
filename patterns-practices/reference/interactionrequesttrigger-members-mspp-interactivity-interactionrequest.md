@@ -300,7 +300,7 @@ Creates a shallow copy of the current <a href="http://msdn.microsoft.com/en-us/l
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequesttrigger.onattached">OnAttached</a></td>
+<td><a href="/patterns-practices/reference/interactionrequesttrigger-onattached-method-mspp-interactivity-interactionrequest">OnAttached</a></td>
 <td><div class="summary">
 Called after the trigger is attached to an AssociatedObject.
 </div>
@@ -316,7 +316,7 @@ Called when the current <a href="http://msdn.microsoft.com/en-us/library/ms60273
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequesttrigger.ondetaching">OnDetaching</a></td>
+<td><a href="/patterns-practices/reference/interactionrequesttrigger-ondetaching-method-mspp-interactivity-interactionrequest">OnDetaching</a></td>
 <td><div class="summary">
 Called when the trigger is being dettached from its AssociatedObject, but before it has actually occurred.
 </div>
@@ -574,6 +574,6 @@ Occurs when the <a href="http://msdn.microsoft.com/en-us/library/ms602734">Freez
 
 ## See Also
 
-[InteractionRequestTrigger Class](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequesttrigger)
+[InteractionRequestTrigger Class](/patterns-practices/reference/interactionrequesttrigger-class-mspp-interactivity-interactionrequest)
 
-[Microsoft.Practices.Prism.Interactivity.InteractionRequest Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest)
+[Microsoft.Practices.Prism.Interactivity.InteractionRequest Namespace](/patterns-practices/reference/mspp-interactivity-interactionrequest-namespace)
