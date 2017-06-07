@@ -4,10 +4,11 @@ Title: 'ContentControlRegionAdapter Members (Microsoft.Practices.Prism.Regions)'
 ms:assetid: 'AllMembers.T:Microsoft.Practices.Prism.Regions.ContentControlRegionAdapter'
 ms:mtpsurl: 'contentcontrolregionadapter-members-mspp-regions.md'
 ---
-
+
+
 # ContentControlRegionAdapter Members
 
-The [ContentControlRegionAdapter](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.contentcontrolregionadapter) type exposes the following members.
+The [ContentControlRegionAdapter](/patterns-practices/reference/contentcontrolregionadapter-class-mspp-regions) type exposes the following members.
 
 ## Constructors
 
@@ -24,9 +25,9 @@ The [ContentControlRegionAdapter](https://msdn.microsoft.com/library/microsoft.p
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.contentcontrolregionadapter.">ContentControlRegionAdapter</a></td>
+<td>ContentControlRegionAdapter</td>
 <td><div class="summary">
-Initializes a new instance of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.contentcontrolregionadapter">ContentControlRegionAdapter</a>.
+Initializes a new instance of <a href="/patterns-practices/reference/contentcontrolregionadapter-class-mspp-regions">ContentControlRegionAdapter</a>.
 </div></td>
 </tr>
 </tbody>
@@ -47,35 +48,35 @@ Initializes a new instance of <a href="https://msdn.microsoft.com/library/micros
 <tbody>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.contentcontrolregionadapter.adapt(microsoft.practices.prism.regions.iregion%2csystem.windows.controls.contentcontrol)">Adapt</a></td>
+<td><a href="/patterns-practices/reference/contentcontrolregionadapter-adapt-method-mspp-regions">Adapt</a></td>
 <td><div class="summary">
-Adapts a <a href="http://msdn.microsoft.com/en-us/library/ms609797">ContentControl</a> to an <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.iregion">IRegion</a>.
+Adapts a <a href="http://msdn.microsoft.com/en-us/library/ms609797">ContentControl</a> to an <a href="/patterns-practices/reference/iregion-interface-mspp-regions">IRegion</a>.
 </div>
-(Overrides <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.adapt(microsoft.practices.prism.regions.iregion%2c%600)">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;).Adapt(IRegion, T)</a>.)</td>
+(Overrides <a href="/patterns-practices/reference/regionadapterbase-t-adapt-method-mspp-regions">RegionAdapterBase&lt;T&gt;</td>
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.attachbehaviors(microsoft.practices.prism.regions.iregion%2c%600)">AttachBehaviors</a></td>
+<td><a href="/patterns-practices/reference/regionadapterbase-t-attachbehaviors-method-mspp-regions">AttachBehaviors</a></td>
 <td><div class="summary">
 Template method to attach new behaviors.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;)</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/regionadapterbase-t-class-mspp-regions"> RegionAdapterBase&lt;T&gt;.)</td>
 </tr>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.attachdefaultbehaviors(microsoft.practices.prism.regions.iregion%2c%600)">AttachDefaultBehaviors</a></td>
+<td><a href="/patterns-practices/reference/regionadapterbase-t-attachdefaultbehaviors-method-mspp-regions">AttachDefaultBehaviors</a></td>
 <td><div class="summary">
-This method adds the default behaviors by using the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.iregionbehaviorfactory">IRegionBehaviorFactory</a> object.
+This method adds the default behaviors by using the <a href="/patterns-practices/reference/iregionbehaviorfactory-interface-mspp-regions">IRegionBehaviorFactory</a> object.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;)</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/regionadapterbase-t-class-mspp-regions">RegionAdapterBase&lt;T&gt;.)</a></td>
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.contentcontrolregionadapter.createregion">CreateRegion</a></td>
+<td><a href="/patterns-practices/reference/contentcontrolregionadapter-createregion-method-mspp-regions">CreateRegion</a></td>
 <td><div class="summary">
-Creates a new instance of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.singleactiveregion">SingleActiveRegion</a>.
+Creates a new instance of <a href="/patterns-practices/reference/singleactiveregion-class-mspp-regions">SingleActiveRegion</a>.
 </div>
-(Overrides <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.createregion">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;).CreateRegion()()()</a>.)</td>
+(Overrides <a href="/patterns-practices/reference/regionadapterbase-t-createregion-method-mspp-regions">RegionAdapterBase&lt;T&gt;.CreateRegion().)</a></td>
 </tr>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
@@ -111,11 +112,11 @@ Gets the <a href="http://msdn.microsoft.com/en-us/library/42892f65">Type</a> of 
 </tr>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.initialize(%600%2csystem.string)">Initialize</a></td>
+<td><a href="/patterns-practices/reference/regionadapterbase-t-initialize-method-mspp-regions">Initialize</a></td>
 <td><div class="summary">
-Adapts an object and binds it to a new <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.iregion">IRegion</a>.
+Adapts an object and binds it to a new <a href="/patterns-practices/reference/iregion-interface-mspp-regions">IRegion</a>.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;)</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/regionadapterbase-t-class-mspp-regions">RegionAdapterBase&lt;T&gt;.)</a></td>
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
@@ -151,16 +152,17 @@ Returns a string that represents the current object.
 <tbody>
 <tr class="odd">
 <td>![Protected property](/patterns-practices/reference/images/protproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.regionbehaviorfactory">RegionBehaviorFactory</a></td>
+<td><a href="/patterns-practices/reference/regionadapterbase-t-regionbehaviorfactory-property-mspp-regions">RegionBehaviorFactory</a></td>
 <td><div class="summary">
 Gets or sets the factory used to create the region behaviors to attach to the created regions.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;)</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/regionadapterbase-t-class-mspp-regions">RegionAdapterBase&lt;T&gt;.)</a></td>
 </tr>
 </tbody>
 </table>
 
 ## See Also
-[ContentControlRegionAdapter Class](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.contentcontrolregionadapter)
 
-[Microsoft.Practices.Prism.Regions Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.regions)
+[ContentControlRegionAdapter Class](/patterns-practices/reference/contentcontrolregionadapter-class-mspp-regions)
+
+[Microsoft.Practices.Prism.Regions Namespace](/patterns-practices/reference/mspp-regions-namespace)
