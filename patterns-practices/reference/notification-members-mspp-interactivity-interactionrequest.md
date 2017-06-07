@@ -4,10 +4,11 @@ Title: 'Notification Members (Microsoft.Practices.Prism.Interactivity.Interactio
 ms:assetid: 'AllMembers.T:Microsoft.Practices.Prism.Interactivity.InteractionRequest.Notification'
 ms:mtpsurl: 'notification-members-mspp-interactivity-interactionrequest.md'
 ---
-
+
+
 # Notification Members
 
-The [Notification](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.notification) type exposes the following members.
+The [Notification](/patterns-practices/reference/notification-class-mspp-interactivity-interactionrequest) type exposes the following members.
 
 ## Constructors
 
@@ -24,9 +25,9 @@ The [Notification](https://msdn.microsoft.com/library/microsoft.practices.prism.
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.notification.">Notification</a></td>
+<td>Notification</td>
 <td><div class="summary">
-Initializes a new instance of the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.notification">Notification</a> class
+Initializes a new instance of the <a href="/patterns-practices/reference/notification-class-mspp-interactivity-interactionrequest">Notification</a> class
 </div></td>
 </tr>
 </tbody>
@@ -111,14 +112,14 @@ Returns a string that represents the current object.
 <tbody>
 <tr class="odd">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.notification.content">Content</a></td>
+<td><a href="/patterns-practices/reference/notification-content-property-mspp-interactivity-interactionrequest">Content</a></td>
 <td><div class="summary">
 Gets or sets the content of the notification.
 </div></td>
 </tr>
 <tr class="even">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.notification.title">Title</a></td>
+<td><a href="/patterns-practices/reference/notification-title-property-mspp-interactivity-interactionrequest">Title</a></td>
 <td><div class="summary">
 Gets or sets the title to use for the notification.
 </div></td>
@@ -127,6 +128,7 @@ Gets or sets the title to use for the notification.
 </table>
 
 ## See Also
-[Notification Class](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.notification)
 
-[Microsoft.Practices.Prism.Interactivity.InteractionRequest Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest)
+[Notification Class](/patterns-practices/reference/notification-class-mspp-interactivity-interactionrequest)
+
+[Microsoft.Practices.Prism.Interactivity.InteractionRequest Namespace](/patterns-practices/reference/mspp-interactivity-interactionrequest-namespace)
