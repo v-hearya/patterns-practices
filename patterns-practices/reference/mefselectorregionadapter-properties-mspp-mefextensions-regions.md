@@ -4,10 +4,11 @@ Title: 'MefSelectorRegionAdapter Properties (Microsoft.Practices.Prism.MefExtens
 ms:assetid: 'Properties.T:Microsoft.Practices.Prism.MefExtensions.Regions.MefSelectorRegionAdapter'
 ms:mtpsurl: 'mefselectorregionadapter-properties-mspp-mefextensions-regions.md'
 ---
-
+
+
 # MefSelectorRegionAdapter Properties
 
-The [MefSelectorRegionAdapter](https://msdn.microsoft.com/library/microsoft.practices.prism.mefextensions.regions.mefselectorregionadapter) type exposes the following members.
+The [MefSelectorRegionAdapter](/patterns-practices/reference/mefselectorregionadapter-class-mspp-mefextensions-regions) type exposes the following members.
 
 ## Properties
 
@@ -24,16 +25,17 @@ The [MefSelectorRegionAdapter](https://msdn.microsoft.com/library/microsoft.prac
 <tbody>
 <tr class="odd">
 <td>![Protected property](/patterns-practices/reference/images/protproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601.regionbehaviorfactory">RegionBehaviorFactory</a></td>
+<td><a href="/patterns-practices/reference/regionadapterbase-t-regionbehaviorfactory-property-mspp-regions">RegionBehaviorFactory</a></td>
 <td><div class="summary">
 Gets or sets the factory used to create the region behaviors to attach to the created regions.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionadapterbase%601">RegionAdapterBase&lt;(Of &lt;(T&gt;)&gt;)</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/regionadapterbase-t-class-mspp-regions">RegionAdapterBase&lt;T&gt;</a>.)</td>
 </tr>
 </tbody>
 </table>
 
 ## See Also
-[MefSelectorRegionAdapter Class](https://msdn.microsoft.com/library/microsoft.practices.prism.mefextensions.regions.mefselectorregionadapter)
 
-[Microsoft.Practices.Prism.MefExtensions.Regions Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.mefextensions.regions)
+[MefSelectorRegionAdapter Class](/patterns-practices/reference/mefselectorregionadapter-class-mspp-mefextensions-regions)
+
+[Microsoft.Practices.Prism.MefExtensions.Regions Namespace](/patterns-practices/reference/mspp-mefextensions-regions-namespace)
