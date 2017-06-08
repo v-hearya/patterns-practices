@@ -4,10 +4,11 @@ Title: 'RegionManager Fields (Microsoft.Practices.Prism.Regions)'
 ms:assetid: 'Fields.T:Microsoft.Practices.Prism.Regions.RegionManager'
 ms:mtpsurl: 'regionmanager-fields-mspp-regions.md'
 ---
-
+
+
 # RegionManager Fields
 
-The [RegionManager](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionmanager) type exposes the following members.
+The [RegionManager](/patterns-practices/reference/regionmanager-class-mspp-regions) type exposes the following members.
 
 ## Fields
 
@@ -23,21 +24,21 @@ The [RegionManager](https://msdn.microsoft.com/library/microsoft.practices.prism
 <tbody>
 <tr class="odd">
 <td>![Static member](/patterns-practices/reference/images/pubfield(en-us,PandP.50).gif" title="Public field" /><img src="https://msdn.microsoft.com/en-us/Gg430954.static.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionmanager.regioncontextproperty">RegionContextProperty</a></td>
+<td><a href="/patterns-practices/reference/regionmanager-regioncontextproperty-field-mspp-regions">RegionContextProperty</a></td>
 <td><div class="summary">
 Identifies the RegionContext attached property.
 </div></td>
 </tr>
 <tr class="even">
 <td>![Static member](/patterns-practices/reference/images/pubfield(en-us,PandP.50).gif" title="Public field" /><img src="https://msdn.microsoft.com/en-us/Gg430954.static.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionmanager.regionmanagerproperty">RegionManagerProperty</a></td>
+<td><a href="/patterns-practices/reference/regionmanager-regionmanagerproperty-field-mspp-regions">RegionManagerProperty</a></td>
 <td><div class="summary">
 Identifies the RegionManager attached property.
 </div></td>
 </tr>
 <tr class="odd">
 <td>![Static member](/patterns-practices/reference/images/pubfield(en-us,PandP.50).gif" title="Public field" /><img src="https://msdn.microsoft.com/en-us/Gg430954.static.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionmanager.regionnameproperty">RegionNameProperty</a></td>
+<td><a href="/patterns-practices/reference/regionmanager-regionnameproperty-field-mspp-regions">RegionNameProperty</a></td>
 <td><div class="summary">
 Identifies the RegionName attached property.
 </div></td>
@@ -46,6 +47,7 @@ Identifies the RegionName attached property.
 </table>
 
 ## See Also
-[RegionManager Class](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionmanager)
 
-[Microsoft.Practices.Prism.Regions Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.regions)
+[RegionManager Class](/patterns-practices/reference/regionmanager-class-mspp-regions)
+
+[Microsoft.Practices.Prism.Regions Namespace](/patterns-practices/reference/mspp-regions-namespace)
