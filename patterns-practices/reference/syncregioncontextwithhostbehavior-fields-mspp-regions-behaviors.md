@@ -4,10 +4,11 @@ Title: 'SyncRegionContextWithHostBehavior Fields (Microsoft.Practices.Prism.Regi
 ms:assetid: 'Fields.T:Microsoft.Practices.Prism.Regions.Behaviors.SyncRegionContextWithHostBehavior'
 ms:mtpsurl: 'syncregioncontextwithhostbehavior-fields-mspp-regions-behaviors.md'
 ---
-
+
+
 # SyncRegionContextWithHostBehavior Fields
 
-The [SyncRegionContextWithHostBehavior](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.syncregioncontextwithhostbehavior) type exposes the following members.
+The [SyncRegionContextWithHostBehavior](/patterns-practices/reference/syncregioncontextwithhostbehavior-class-mspp-regions-behaviors) type exposes the following members.
 
 ## Fields
 
@@ -24,7 +25,7 @@ The [SyncRegionContextWithHostBehavior](https://msdn.microsoft.com/library/micro
 <tbody>
 <tr class="odd">
 <td>![Public field](/patterns-practices/reference/images/pubfield.gif)![Static member](/patterns-practices/reference/images/static.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.syncregioncontextwithhostbehavior.behaviorkey">BehaviorKey</a></td>
+<td><a href="/patterns-practices/reference/syncregioncontextwithhostbehavior-behaviorkey-field-mspp-regions-behaviors">BehaviorKey</a></td>
 <td><div class="summary">
 Name that identifies the SyncRegionContextWithHostBehavior behavior in a collection of RegionsBehaviors.
 </div></td>
@@ -33,6 +34,7 @@ Name that identifies the SyncRegionContextWithHostBehavior behavior in a collect
 </table>
 
 ## See Also
-[SyncRegionContextWithHostBehavior Class](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.syncregioncontextwithhostbehavior)
 
-[Microsoft.Practices.Prism.Regions.Behaviors Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors)
+[SyncRegionContextWithHostBehavior Class](/patterns-practices/reference/syncregioncontextwithhostbehavior-class-mspp-regions-behaviors)
+
+[Microsoft.Practices.Prism.Regions.Behaviors Namespace](/patterns-practices/reference/mspp-regions-behaviors-namespace)
