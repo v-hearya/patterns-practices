@@ -4,10 +4,11 @@ Title: 'ModuleAttribute Properties (Microsoft.Practices.Prism.Modularity)'
 ms:assetid: 'Properties.T:Microsoft.Practices.Prism.Modularity.ModuleAttribute'
 ms:mtpsurl: 'moduleattribute-properties-mspp-modularity.md'
 ---
-
+
+
 # ModuleAttribute Properties
 
-The [ModuleAttribute](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleattribute) type exposes the following members.
+The [ModuleAttribute](/patterns-practices/reference/moduleattribute-class-mspp-modularity) type exposes the following members.
 
 ## Properties
 
@@ -24,21 +25,21 @@ The [ModuleAttribute](https://msdn.microsoft.com/library/microsoft.practices.pri
 <tbody>
 <tr class="odd">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleattribute.modulename">ModuleName</a></td>
+<td><a href="/patterns-practices/reference/moduleattribute-modulename-property-mspp-modularity">ModuleName</a></td>
 <td><div class="summary">
 Gets or sets the name of the module.
 </div></td>
 </tr>
 <tr class="even">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleattribute.ondemand">OnDemand</a></td>
+<td><a href="/patterns-practices/reference/moduleattribute-ondemand-property-mspp-modularity">OnDemand</a></td>
 <td><div class="summary">
 Gets or sets the value indicating whether the module should be loaded OnDemand.
 </div></td>
 </tr>
 <tr class="odd">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleattribute.startuploaded">StartupLoaded</a></td>
+<td><a href="/patterns-practices/reference/moduleattribute-startuploaded-property-mspp-modularity">StartupLoaded</a></td>
 <td><strong>Obsolete.</strong>
 <div class="summary">
 Gets or sets a value indicating whether the module should be loaded at startup.
@@ -56,6 +57,7 @@ When implemented in a derived class, gets a unique identifier for this <a href="
 </table>
 
 ## See Also
-[ModuleAttribute Class](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleattribute)
 
-[Microsoft.Practices.Prism.Modularity Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity)
+[ModuleAttribute Class](/patterns-practices/reference/moduleattribute-class-mspp-modularity)
+
+[Microsoft.Practices.Prism.Modularity Namespace](/patterns-practices/reference/mspp-modularity-namespace)
