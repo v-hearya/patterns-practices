@@ -4,10 +4,11 @@ Title: 'RegionMemberLifetimeBehavior Fields (Microsoft.Practices.Prism.Regions.B
 ms:assetid: 'Fields.T:Microsoft.Practices.Prism.Regions.Behaviors.RegionMemberLifetimeBehavior'
 ms:mtpsurl: 'regionmemberlifetimebehavior-fields-mspp-regions-behaviors.md'
 ---
-
+
+
 # RegionMemberLifetimeBehavior Fields
 
-The [RegionMemberLifetimeBehavior](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.regionmemberlifetimebehavior) type exposes the following members.
+The [RegionMemberLifetimeBehavior](/patterns-practices/reference/regionmemberlifetimebehavior-class-mspp-regions-behaviors) type exposes the following members.
 
 ## Fields
 
@@ -24,7 +25,7 @@ The [RegionMemberLifetimeBehavior](https://msdn.microsoft.com/library/microsoft.
 <tbody>
 <tr class="odd">
 <td>![Public field](/patterns-practices/reference/images/pubfield.gif)![Static member](/patterns-practices/reference/images/static.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.regionmemberlifetimebehavior.behaviorkey">BehaviorKey</a></td>
+<td><a href="/patterns-practices/reference/regionmemberlifetimebehavior-behaviorkey-field-mspp-regions-behaviors">BehaviorKey</a></td>
 <td><div class="summary">
 The key for this behavior.
 </div></td>
@@ -33,6 +34,7 @@ The key for this behavior.
 </table>
 
 ## See Also
-[RegionMemberLifetimeBehavior Class](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.regionmemberlifetimebehavior)
 
-[Microsoft.Practices.Prism.Regions.Behaviors Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors)
+[RegionMemberLifetimeBehavior Class](/patterns-practices/reference/regionmemberlifetimebehavior-class-mspp-regions-behaviors)
+
+[Microsoft.Practices.Prism.Regions.Behaviors Namespace](/patterns-practices/reference/mspp-regions-behaviors-namespace)
