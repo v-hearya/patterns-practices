@@ -63,7 +63,7 @@ Gets a message that describes the current exception.
 </tr>
 <tr class="even">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modularityexception.modulename">ModuleName</a></td>
+<td><a href="/patterns-practices/reference/modularityexception-modulename-property-mspp-modularity">ModuleName</a></td>
 <td><div class="summary">
 Gets or sets the name of the module that this exception refers to.
 </div>
