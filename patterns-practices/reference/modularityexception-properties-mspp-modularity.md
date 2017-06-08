@@ -4,10 +4,11 @@ Title: 'ModularityException Properties (Microsoft.Practices.Prism.Modularity)'
 ms:assetid: 'Properties.T:Microsoft.Practices.Prism.Modularity.ModularityException'
 ms:mtpsurl: 'modularityexception-properties-mspp-modularity.md'
 ---
-
+
+
 # ModularityException Properties
 
-The [ModularityException](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modularityexception) type exposes the following members.
+The [ModularityException](/patterns-practices/reference/modularityexception-class-mspp-modularity) type exposes the following members.
 
 ## Properties
 
@@ -64,7 +65,7 @@ Gets a message that describes the current exception.
 </tr>
 <tr class="even">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modularityexception.modulename">ModuleName</a></td>
+<td><a href="/patterns-practices/reference/modularityexception-modulename-property-mspp-modularity">ModuleName</a></td>
 <td><div class="summary">
 Gets or sets the name of the module that this exception refers to.
 </div></td>
@@ -97,6 +98,7 @@ Gets the method that throws the current exception.
 </table>
 
 ## See Also
-[ModularityException Class](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modularityexception)
 
-[Microsoft.Practices.Prism.Modularity Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity)
+[ModularityException Class](/patterns-practices/reference/modularityexception-class-mspp-modularity)
+
+[Microsoft.Practices.Prism.Modularity Namespace](/patterns-practices/reference/mspp-modularity-namespace)
