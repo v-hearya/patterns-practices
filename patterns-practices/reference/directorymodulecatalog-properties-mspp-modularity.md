@@ -4,10 +4,11 @@ Title: 'DirectoryModuleCatalog Properties (Microsoft.Practices.Prism.Modularity)
 ms:assetid: 'Properties.T:Microsoft.Practices.Prism.Modularity.DirectoryModuleCatalog'
 ms:mtpsurl: 'directorymodulecatalog-properties-mspp-modularity.md'
 ---
-
+
+
 # DirectoryModuleCatalog Properties
 
-The [DirectoryModuleCatalog](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.directorymodulecatalog) type exposes the following members.
+The [DirectoryModuleCatalog](/patterns-practices/reference/directorymodulecatalog-class-mspp-modularity) type exposes the following members.
 
 ## Properties
 
@@ -24,55 +25,56 @@ The [DirectoryModuleCatalog](https://msdn.microsoft.com/library/microsoft.practi
 <tbody>
 <tr class="odd">
 <td>![Protected property](/patterns-practices/reference/images/protproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog.grouplessmodules">GrouplessModules</a></td>
+<td><a href="/patterns-practices/reference/modulecatalog-grouplessmodules-property-mspp-modularity">GrouplessModules</a></td>
 <td><div class="summary">
-Returns the list of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleinfo">ModuleInfo</a>s that are not contained within any <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleinfogroup">ModuleInfoGroup</a>.
+Returns the list of <a href="/patterns-practices/reference/moduleinfo-class-mspp-modularity">ModuleInfo</a>s that are not contained within any <a href="/patterns-practices/reference/moduleinfogroup-class-mspp-modularity">ModuleInfoGroup</a>.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a>.)</td>
 </tr>
 <tr class="even">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog.groups">Groups</a></td>
+<td><a href="/patterns-practices/reference/modulecatalog-groups-property-mspp-modularity">Groups</a></td>
 <td><div class="summary">
-Gets the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleinfogroup">ModuleInfoGroup</a>s that have been added to the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a>.
+Gets the <a href="/patterns-practices/reference/moduleinfogroup-class-mspp-modularity">ModuleInfoGroup</a>s that have been added to the <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a>.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a>.)</td>
 </tr>
 <tr class="odd">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog.items">Items</a></td>
+<td><a href="/patterns-practices/reference/modulecatalog-items-property-mspp-modularity">Items</a></td>
 <td><div class="summary">
-Gets the items in the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a>. This property is mainly used to add <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleinfogroup">ModuleInfoGroup</a>s or <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleinfo">ModuleInfo</a>s through XAML.
+Gets the items in the <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a>. This property is mainly used to add <a href="/patterns-practices/reference/moduleinfogroup-class-mspp-modularity">ModuleInfoGroup</a>s or <a href="/patterns-practices/reference/moduleinfo-class-mspp-modularity">ModuleInfo</a>s through XAML.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a>.)</td>
 </tr>
 <tr class="even">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.directorymodulecatalog.modulepath">ModulePath</a></td>
+<td><a href="/patterns-practices/reference/directorymodulecatalog-modulepath-property-mspp-modularity">ModulePath</a></td>
 <td><div class="summary">
 Directory containing modules to search for.
 </div></td>
 </tr>
 <tr class="odd">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog.modules">Modules</a></td>
+<td><a href="/patterns-practices/reference/modulecatalog-modules-property-mspp-modularity">Modules</a></td>
 <td><div class="summary">
-Gets all the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleinfo">ModuleInfo</a> classes that are in the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a>, regardless if they are within a <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleinfogroup">ModuleInfoGroup</a> or not.
+Gets all the <a href="/patterns-practices/reference/moduleinfo-class-mspp-modularity">ModuleInfo</a> classes that are in the <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a>, regardless if they are within a <a href="/patterns-practices/reference/moduleinfogroup-class-mspp-modularity">ModuleInfoGroup</a> or not.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a>.)</td>
 </tr>
 <tr class="even">
 <td>![Protected property](/patterns-practices/reference/images/protproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog.validated">Validated</a></td>
+<td><a href="/patterns-practices/reference/modulecatalog-validated-property-mspp-modularity">Validated</a></td>
 <td><div class="summary">
-Gets or sets a value that remembers whether the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a> has been validated already.
+Gets or sets a value that remembers whether the <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a> has been validated already.
 </div>
-(Inherited from <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a>.)</td>
+(Inherited from <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a>.)</td>
 </tr>
 </tbody>
 </table>
 
 ## See Also
-[DirectoryModuleCatalog Class](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.directorymodulecatalog)
 
-[Microsoft.Practices.Prism.Modularity Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity)
+[DirectoryModuleCatalog Class](/patterns-practices/reference/directorymodulecatalog-class-mspp-modularity)
+
+[Microsoft.Practices.Prism.Modularity Namespace](/patterns-practices/reference/mspp-modularity-namespace)
