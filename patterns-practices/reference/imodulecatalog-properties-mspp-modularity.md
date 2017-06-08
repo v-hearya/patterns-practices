@@ -4,10 +4,11 @@ Title: 'IModuleCatalog Properties (Microsoft.Practices.Prism.Modularity)'
 ms:assetid: 'Properties.T:Microsoft.Practices.Prism.Modularity.IModuleCatalog'
 ms:mtpsurl: 'imodulecatalog-properties-mspp-modularity.md'
 ---
-
+
+
 # IModuleCatalog Properties
 
-The [IModuleCatalog](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.imodulecatalog) type exposes the following members.
+The [IModuleCatalog](/patterns-practices/reference/imodulecatalog-interface-mspp-modularity) type exposes the following members.
 
 ## Properties
 
@@ -24,15 +25,16 @@ The [IModuleCatalog](https://msdn.microsoft.com/library/microsoft.practices.pris
 <tbody>
 <tr class="odd">
 <td>![Public property](/patterns-practices/reference/images/pubproperty.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.imodulecatalog.modules">Modules</a></td>
+<td><a href="/patterns-practices/reference/imodulecatalog-modules-property-mspp-modularity">Modules</a></td>
 <td><div class="summary">
-Gets all the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduleinfo">ModuleInfo</a> classes that are in the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulecatalog">ModuleCatalog</a>.
+Gets all the <a href="/patterns-practices/reference/moduleinfo-class-mspp-modularity">ModuleInfo</a> classes that are in the <a href="/patterns-practices/reference/modulecatalog-class-mspp-modularity">ModuleCatalog</a>.
 </div></td>
 </tr>
 </tbody>
 </table>
 
 ## See Also
-[IModuleCatalog Interface](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.imodulecatalog)
 
-[Microsoft.Practices.Prism.Modularity Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity)
+[IModuleCatalog Interface](/patterns-practices/reference/imodulecatalog-interface-mspp-modularity)
+
+[Microsoft.Practices.Prism.Modularity Namespace](/patterns-practices/reference/mspp-modularity-namespace)
