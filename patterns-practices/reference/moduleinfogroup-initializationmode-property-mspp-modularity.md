@@ -29,7 +29,6 @@ Public Property InitializationMode As InitializationMode
 	Get
 	Set
 ```
-public InitializationMode InitializationMode { get; set; }Public Property InitializationMode As InitializationMode Get Set
 ### Property Value
 
 Type: [InitializationMode](/patterns-practices/reference/initializationmode-enumeration-mspp-modularity)
