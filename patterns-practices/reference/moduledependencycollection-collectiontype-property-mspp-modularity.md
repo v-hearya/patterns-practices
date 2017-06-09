@@ -20,14 +20,12 @@ Gets the type of the [ConfigurationElementCollection](http://msdn.microsoft.com/
 
 ```C#
 public override ConfigurationElementCollectionType CollectionType { get; }
-
 ```
 
 ```VB
 'Declaration
 Public Overrides ReadOnly Property CollectionType As ConfigurationElementCollectionType
 	Get
-
 ```
 
 ### Property Value
