@@ -20,7 +20,6 @@ Gets or sets the [InitializationMode](/patterns-practices/reference/moduleinfo-i
 
 ```C#
 public InitializationMode InitializationMode { get; set; }
-
 ```
 
 ```VB

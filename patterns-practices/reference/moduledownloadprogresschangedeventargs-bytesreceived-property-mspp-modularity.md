@@ -19,9 +19,7 @@ Gets the bytes received.
 ## Syntax
 
 ```C#
-
 public long BytesReceived { get; }
-
 ```
 
 ```VB

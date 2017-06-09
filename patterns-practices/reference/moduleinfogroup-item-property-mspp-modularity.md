@@ -22,7 +22,6 @@ Gets or sets the [ModuleInfo](/patterns-practices/reference/moduleinfo-class-msp
 public ModuleInfo this[
 	int index
 ] { get; set; }
-
 ```
 
 ### Parameters

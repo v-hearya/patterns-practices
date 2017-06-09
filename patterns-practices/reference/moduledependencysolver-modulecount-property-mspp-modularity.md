@@ -19,9 +19,7 @@ Gets the number of modules added to the solver.
 ## Syntax
 
 ```C#
-
 public int ModuleCount { get; }
-
 ```
 
 ```VB

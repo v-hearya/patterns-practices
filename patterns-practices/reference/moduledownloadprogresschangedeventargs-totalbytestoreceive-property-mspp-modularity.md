@@ -19,7 +19,6 @@ Gets the total bytes to receive.
 ## Syntax
 ```C#
 public long TotalBytesToReceive { get; }
-
 ```
 ```VB
 'Declaration

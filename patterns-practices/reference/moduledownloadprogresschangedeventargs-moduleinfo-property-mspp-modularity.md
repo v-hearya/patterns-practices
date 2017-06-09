@@ -20,14 +20,12 @@ Getsthe module info.
 
 ```C#
 public ModuleInfo ModuleInfo { get; }
-
 ```
 
 ```VB
 'Declaration
 Public ReadOnly Property ModuleInfo As ModuleInfo
 	Get
-
 ```
 ### Property Value
 

@@ -21,7 +21,6 @@ Gets the number of elements contained in the [ModuleInfoGroup](/patterns-practic
 
 ```C#
 public int Count { get; }
-
 ```
 
 ### Property Value
@@ -37,17 +36,6 @@ The number of elements contained in the [ModuleInfoGroup](/patterns-practices/re
 [ICollection&lt;T&gt;.Count](http://msdn.microsoft.com/en-us/library/5s3kzhec)
 
 [ICollection.Count](http://msdn.microsoft.com/en-us/library/2yz8a4x3)
-
-## See Also
-
-[ModuleInfoGroup Class](/patterns-practices/reference/moduleinfogroup-class-mspp-modularity)
-
-[ModuleInfoGroup Members](/patterns-practices/reference/moduleinfogroup-members-mspp-modularity)
-
-[Microsoft.Practices.Prism.Modularity Namespace](/patterns-practices/reference/mspp-modularity-namespace)
-
-
-
 
 
 # ModuleInfoGroup.Count Property

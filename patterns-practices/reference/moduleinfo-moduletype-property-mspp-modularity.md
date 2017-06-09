@@ -20,9 +20,6 @@ Gets or sets the module [Type](http://msdn.microsoft.com/en-us/library/42892f65)
 ```C#
 public string ModuleType { get; set; }
 ```
-
-## Syntax
-
 ```VB
 'Declaration
 Public Property ModuleType As String
