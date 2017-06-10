@@ -4,7 +4,8 @@ Title: 'ModuleConfigurationElementCollection.ThrowOnDuplicate Property (Microsof
 ms:assetid: 'P:Microsoft.Practices.Prism.Modularity.ModuleConfigurationElementCollection.ThrowOnDuplicate'
 ms:mtpsurl: 'moduleconfigurationelementcollection-throwonduplicate-property-mspp-modularity.md'
 ---
-
+
+
 # ModuleConfigurationElementCollection.ThrowOnDuplicate Property
 
 Gets a value indicating whether an exception should be raised if a duplicate element is found. This property will always return true.
@@ -14,8 +15,10 @@ Gets a value indicating whether an exception should be raised if a duplicate ele
 **Assembly:** Microsoft.Practices.Prism.Composition (in Microsoft.Practices.Prism.Composition.dll)
 
 **Version:** 5.0.0.0 (5.0.0.0)
-## Syntax
-```C#
+
+## Syntax
+
+```C#
      protected override bool ThrowOnDuplicate { get; }
 ```
 ```VB
@@ -31,7 +34,8 @@ Type: [Boolean](http://msdn.microsoft.com/en-us/library/a28wyd50)
 A [Boolean](http://msdn.microsoft.com/en-us/library/a28wyd50) value.
 
 ## See Also
-[ModuleConfigurationElementCollection Class](/patterns-practices/reference/moduleconfigurationelementcollection-class-mspp-modularity)
+
+[ModuleConfigurationElementCollection Class](/patterns-practices/reference/moduleconfigurationelementcollection-class-mspp-modularity)
 
 [ModuleConfigurationElementCollection Members](/patterns-practices/reference/moduleconfigurationelementcollection-members-mspp-modularity)
 

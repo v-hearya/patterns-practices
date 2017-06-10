@@ -4,8 +4,7 @@ Title: 'DelegateCommand(T) Methods (Microsoft.Practices.Prism.Commands)'
 ms:assetid: 'Methods.T:Microsoft.Practices.Prism.Commands.DelegateCommand\`1'
 ms:mtpsurl: 'delegatecommand-t-methods-mspp-commands.md'
 ---
-
-
+
 # DelegateCommand&lt;T&gt; Methods
 
 The [DelegateCommand&lt;T&gt;](/patterns-practices/reference/delegatecommand-t-class-mspp-commands) type exposes the following members.
@@ -47,16 +46,16 @@ Determines whether the specified [Object](http://msdn.microsoft.com/en-us/librar
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td>[Execute(T)](/patterns-practices/reference/delegatecommand-t-execute-method-t-mspp-commands)</td>
+<td>[Execute(T)](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601.execute(%600))</td>
 <td><div class="summary">
-Executes the command and invokes the [Action&lt;T&gt;](http://msdn.microsoft.com/en-us/library/018hxwa8) provided during construction.
+Executes the command and invokes the [Action&lt;(Of &lt;(T&gt;)&gt;)](http://msdn.microsoft.com/en-us/library/018hxwa8) provided during construction.
 </div></td>
 </tr>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
 <td>[Execute(Object)](/patterns-practices/reference/delegatecommandbase-class-mspp-commands)</td>
 <td><div class="summary">
-Executes the command with the provided parameter by invoking the [Action&lt;T&gt;](http://msdn.microsoft.com/en-us/library/018hxwa8) supplied during construction.
+Executes the command with the provided parameter by invoking the [Action&lt;(Of &lt;(T&gt;)&gt;)](http://msdn.microsoft.com/en-us/library/018hxwa8) supplied during construction.
 </div>
 (Inherited from [DelegateCommandBase](/patterns-practices/reference/delegatecommandbase-class-mspp-commands).)</td>
 </tr>
@@ -69,17 +68,17 @@ Allows an object to try to free resources and perform other cleanup operations b
 (Inherited from [Object](http://msdn.microsoft.com/en-us/library/e5kfa45b).)</td>
 </tr>
 <tr class="odd">
-<td>![Public method](/patterns-practices/reference/images/public-method.gif)![static-member](/patterns-practices/reference/images/static.gif)</td>
-<td>[FromAsyncHandler(Func&lt;T, Task&gt;)](/patterns-practices/reference/delegatecommand-t-fromasynchandler-method-func-t-task-mspp-commands)</td>
+<td>![Public method](/patterns-practices/reference/images/public-method.gif)![static-member](/patterns-practices/reference/images/static-member.gif)</td>
+<td>[FromAsyncHandler(Func&lt;(Of &lt;(T, Task&gt;)&gt;))](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601.fromasynchandler(system.func%7b%600%2csystem.threading.tasks.task%7d))</td>
 <td><div class="summary">
-Factory method to create a new instance of [DelegateCommand&lt;T&gt;](/patterns-practices/reference/delegatecommand-t-class-mspp-commands) from an awaitable handler method.
+Factory method to create a new instance of [DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601) from an awaitable handler method.
 </div></td>
 </tr>
 <tr class="even">
-<td>![Public method](/patterns-practices/reference/images/public-method.gif)![static-member](/patterns-practices/reference/images/static.gif)</td>
-<td>[FromAsyncHandler(Func&lt;T, Task&gt;, Func&lt;T, Boolean&gt;)](/patterns-practices/reference/delegatecommand-t-fromasynchandler-method-func-t-task-func-t-boolean-mspp-commands)</td>
+<td>![Public method](/patterns-practices/reference/images/public-method.gif)![static-member](/patterns-practices/reference/images/static-member.gif)</td>
+<td>[FromAsyncHandler(Func&lt;(Of &lt;(T, Task&gt;)&gt;), Func&lt;(Of &lt;(T, Boolean&gt;)&gt;))](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601.fromasynchandler(system.func%7b%600%2csystem.threading.tasks.task%7d%2csystem.func%7b%600%2csystem.boolean%7d))</td>
 <td><div class="summary">
-Factory method to create a new instance of [DelegateCommand&lt;T&gt;](/patterns-practices/reference/delegatecommand-t-class-mspp-commands) from an awaitable handler method.
+Factory method to create a new instance of [DelegateCommand&lt;(Of &lt;(T&gt;)&gt;)](https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommand%601) from an awaitable handler method.
 </div></td>
 </tr>
 <tr class="odd">
@@ -146,7 +145,6 @@ Returns a string that represents the current object.
 </table>
 
 ## See Also
-
-[DelegateCommand&lt;T&gt; Class](/patterns-practices/reference/delegatecommand-t-class-mspp-commands)
+[DelegateCommand&lt;T&gt; Class](/patterns-practices/reference/delegatecommand-t-class-mspp-commands)
 
 [Microsoft.Practices.Prism.Commands Namespace](/patterns-practices/reference/mspp-commands-namespace)

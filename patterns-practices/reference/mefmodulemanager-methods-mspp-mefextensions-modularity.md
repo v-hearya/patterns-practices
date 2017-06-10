@@ -4,8 +4,7 @@ Title: 'MefModuleManager Methods (Microsoft.Practices.Prism.MefExtensions.Modula
 ms:assetid: 'Methods.T:Microsoft.Practices.Prism.MefExtensions.Modularity.MefModuleManager'
 ms:mtpsurl: 'mefmodulemanager-methods-mspp-mefextensions-modularity.md'
 ---
-
-
+
 # MefModuleManager Methods
 
 The [MefModuleManager](/patterns-practices/reference/mefmodulemanager-class-mspp-mefextensions-modularity) type exposes the following members.
@@ -24,19 +23,19 @@ The [MefModuleManager](/patterns-practices/reference/mefmodulemanager-class-mspp
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td>[Dispose()](/patterns-practices/reference/modulemanager-dispose-method-mspp-modularity)</td>
+<td>[Dispose()()()](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager.dispose)</td>
 <td><div class="summary">
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 </div>
-(Inherited from [ModuleManager](/patterns-practices/reference/modulemanager-class-mspp-modularity).)</td>
+(Inherited from [ModuleManager](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager).)</td>
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td>[Dispose(Boolean)](/patterns-practices/reference/modulemanager-dispose-method-boolean-mspp-modularity)</td>
+<td>[Dispose(Boolean)](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager.dispose(system.boolean))</td>
 <td><div class="summary">
-Disposes the associated [IModuleTypeLoader](/patterns-practices/reference/imoduletypeloader-interface-mspp-modularity)s.
+Disposes the associated [IModuleTypeLoader](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.imoduletypeloader)s.
 </div>
-(Inherited from [ModuleManager](/patterns-practices/reference/modulemanager-class-mspp-modularity).)</td>
+(Inherited from [ModuleManager](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager).)</td>
 </tr>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
@@ -72,27 +71,27 @@ Gets the [Type](http://msdn.microsoft.com/en-us/library/42892f65) of the current
 </tr>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td>[HandleModuleTypeLoadingError](/patterns-practices/reference/modulemanager-handlemoduletypeloadingerror-method-mspp-modularity)</td>
+<td>[HandleModuleTypeLoadingError](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager.handlemoduletypeloadingerror(microsoft.practices.prism.modularity.moduleinfo%2csystem.exception))</td>
 <td><div class="summary">
-Handles any exception occurred in the module typeloading process, logs the error using the [ILoggerFacade](/patterns-practices/reference/iloggerfacade-interface-mspp-logging) and throws a [ModuleTypeLoadingException](/patterns-practices/reference/moduletypeloadingexception-class-mspp-modularity). This method can be overridden to provide a different behavior.
+Handles any exception occurred in the module typeloading process, logs the error using the [ILoggerFacade](https://msdn.microsoft.com/library/microsoft.practices.prism.logging.iloggerfacade) and throws a [ModuleTypeLoadingException](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.moduletypeloadingexception). This method can be overridden to provide a different behavior.
 </div>
-(Inherited from [ModuleManager](/patterns-practices/reference/modulemanager-class-mspp-modularity).)</td>
+(Inherited from [ModuleManager](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager).)</td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td>[LoadModule](/patterns-practices/reference/modulemanager-loadmodule-method-mspp-modularity)</td>
+<td>[LoadModule](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager.loadmodule(system.string))</td>
 <td><div class="summary">
-Loads and initializes the module on the [ModuleCatalog](/patterns-practices/reference/modulemanager-modulecatalog-property-mspp-modularity) with the name moduleName.
+Loads and initializes the module on the [ModuleCatalog](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager.modulecatalog) with the name moduleName.
 </div>
-(Inherited from [ModuleManager](/patterns-practices/reference/modulemanager-class-mspp-modularity).)</td>
+(Inherited from [ModuleManager](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager).)</td>
 </tr>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td>[LoadModulesThatAreReadyForLoad](/patterns-practices/reference/modulemanager-loadmodulesthatarereadyforload-method-mspp-modularity)</td>
+<td>[LoadModulesThatAreReadyForLoad](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager.loadmodulesthatarereadyforload)</td>
 <td><div class="summary">
 Loads the modules that are not intialized and have their dependencies loaded.
 </div>
-(Inherited from [ModuleManager](/patterns-practices/reference/modulemanager-class-mspp-modularity).)</td>
+(Inherited from [ModuleManager](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager).)</td>
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
@@ -104,26 +103,26 @@ Creates a shallow copy of the current [Object](http://msdn.microsoft.com/en-us/l
 </tr>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td>[ModuleNeedsRetrieval](/patterns-practices/reference/mefmodulemanager-moduleneedsretrieval-method-mspp-mefextensions-modularity)</td>
+<td>[ModuleNeedsRetrieval](https://msdn.microsoft.com/library/microsoft.practices.prism.mefextensions.modularity.mefmodulemanager.moduleneedsretrieval(microsoft.practices.prism.modularity.moduleinfo))</td>
 <td><div class="summary">
 Checks if the module needs to be retrieved before it's initialized.
 </div>
-(Overrides [ModuleManager.ModuleNeedsRetrieval(ModuleInfo)](/patterns-practices/reference/modulemanager-moduleneedsretrieval-method-mspp-modularity).)</td>
+(Overrides [ModuleManager..::.ModuleNeedsRetrieval(ModuleInfo)](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager.moduleneedsretrieval(microsoft.practices.prism.modularity.moduleinfo)).)</td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td>[OnImportsSatisfied](/patterns-practices/reference/mefmodulemanager-onimportssatisfied-method-mspp-mefextensions-modularity)</td>
+<td>[OnImportsSatisfied](https://msdn.microsoft.com/library/microsoft.practices.prism.mefextensions.modularity.mefmodulemanager.onimportssatisfied)</td>
 <td><div class="summary">
 Called when a part's imports have been satisfied and it is safe to use.
 </div></td>
 </tr>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td>[Run](/patterns-practices/reference/modulemanager-run-method-mspp-modularity)</td>
+<td>[Run](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager.run)</td>
 <td><div class="summary">
-Initializes the modules marked as [WhenAvailable](/patterns-practices/reference/initializationmode-enumeration-mspp-modularity) on the [ModuleCatalog](/patterns-practices/reference/modulemanager-modulecatalog-property-mspp-modularity).
+Initializes the modules marked as [WhenAvailable](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.initializationmode) on the [ModuleCatalog](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager.modulecatalog).
 </div>
-(Inherited from [ModuleManager](/patterns-practices/reference/modulemanager-class-mspp-modularity).)</td>
+(Inherited from [ModuleManager](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.modulemanager).)</td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
@@ -137,7 +136,6 @@ Returns a string that represents the current object.
 </table>
 
 ## See Also
-
-[MefModuleManager Class](/patterns-practices/reference/mefmodulemanager-class-mspp-mefextensions-modularity)
+[MefModuleManager Class](/patterns-practices/reference/mefmodulemanager-class-mspp-mefextensions-modularity)
 
 [Microsoft.Practices.Prism.MefExtensions.Modularity Namespace](/patterns-practices/reference/mspp-mefextensions-modularity-namespace)

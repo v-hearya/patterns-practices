@@ -4,7 +4,8 @@ Title: 'ModuleConfigurationElement.AssemblyFile Property (Microsoft.Practices.Pr
 ms:assetid: 'P:Microsoft.Practices.Prism.Modularity.ModuleConfigurationElement.AssemblyFile'
 ms:mtpsurl: 'moduleconfigurationelement-assemblyfile-property-mspp-modularity.md'
 ---
-
+
+
 # ModuleConfigurationElement.AssemblyFile Property
 
 Gets or sets the assembly file.
@@ -14,8 +15,10 @@ Gets or sets the assembly file.
 **Assembly:** Microsoft.Practices.Prism.Composition (in Microsoft.Practices.Prism.Composition.dll)
 
 **Version:** 5.0.0.0 (5.0.0.0)
-## Syntax
-```C#
+
+## Syntax
+
+```C#
 public string AssemblyFile { get; set; }
 ```
 ```VB
@@ -30,7 +33,8 @@ Type: [String](http://msdn.microsoft.com/en-us/library/s1wwdcbf)
 The assembly file.
 
 ## See Also
-[ModuleConfigurationElement Class](/patterns-practices/reference/moduleconfigurationelement-class-mspp-modularity)
+
+[ModuleConfigurationElement Class](/patterns-practices/reference/moduleconfigurationelement-class-mspp-modularity)
 
 [ModuleConfigurationElement Members](/patterns-practices/reference/moduleconfigurationelement-members-mspp-modularity)
 

@@ -4,7 +4,8 @@ Title: 'ModuleInfo.Ref Property (Microsoft.Practices.Prism.Modularity)'
 ms:assetid: 'P:Microsoft.Practices.Prism.Modularity.ModuleInfo.Ref'
 ms:mtpsurl: 'moduleinfo-ref-property-mspp-modularity.md'
 ---
-
+
+
 # ModuleInfo.Ref Property
 
 Reference to the location of the module assembly.
@@ -18,8 +19,10 @@ The following are examples of valid Ref values: file://c:/MyProject/Modules/MyMo
 **Assembly:** Microsoft.Practices.Prism.Composition (in Microsoft.Practices.Prism.Composition.dll)
 
 **Version:** 5.0.0.0 (5.0.0.0)
-## Syntax
-```C#
+
+## Syntax
+
+```C#
 public string Ref { get; set; }
 ```
 ```VB
@@ -33,7 +36,8 @@ Public Property Ref As String
 Type: [String](http://msdn.microsoft.com/en-us/library/s1wwdcbf)
 
 ## See Also
-[ModuleInfo Class](/patterns-practices/reference/moduleinfo-class-mspp-modularity)
+
+[ModuleInfo Class](/patterns-practices/reference/moduleinfo-class-mspp-modularity)
 
 [ModuleInfo Members](/patterns-practices/reference/moduleinfo-members-mspp-modularity)
 

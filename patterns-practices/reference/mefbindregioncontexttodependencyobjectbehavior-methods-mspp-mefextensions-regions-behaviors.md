@@ -4,8 +4,7 @@ Title: 'MefBindRegionContextToDependencyObjectBehavior Methods (Microsoft.Practi
 ms:assetid: 'Methods.T:Microsoft.Practices.Prism.MefExtensions.Regions.Behaviors.MefBindRegionContextToDependencyObjectBehavior'
 ms:mtpsurl: 'mefbindregioncontexttodependencyobjectbehavior-methods-mspp-mefextensions-regions-behaviors.md'
 ---
-
-
+
 # MefBindRegionContextToDependencyObjectBehavior Methods
 
 The [MefBindRegionContextToDependencyObjectBehavior](/patterns-practices/reference/mefbindregioncontexttodependencyobjectbehavior-class-mspp-mefextensions-regions-behaviors) type exposes the following members.
@@ -24,11 +23,11 @@ The [MefBindRegionContextToDependencyObjectBehavior](/patterns-practices/referen
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td>[Attach](/patterns-practices/reference/bindregioncontexttodependencyobjectbehavior-attach-method-mspp-regions-behaviors)</td>
+<td>[Attach](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.bindregioncontexttodependencyobjectbehavior.attach)</td>
 <td><div class="summary">
 Attaches the behavior to the specified region.
 </div>
-(Inherited from [BindRegionContextToDependencyObjectBehavior](/patterns-practices/reference/bindregioncontexttodependencyobjectbehavior-class-mspp-regions-behaviors).)</td>
+(Inherited from [BindRegionContextToDependencyObjectBehavior](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.bindregioncontexttodependencyobjectbehavior).)</td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
@@ -82,8 +81,7 @@ Returns a string that represents the current object.
 </table>
 
 ## See Also
-
-[MefBindRegionContextToDependencyObjectBehavior Class](/patterns-practices/reference/mefbindregioncontexttodependencyobjectbehavior-class-mspp-mefextensions-regions-behaviors)
+[MefBindRegionContextToDependencyObjectBehavior Class](/patterns-practices/reference/mefbindregioncontexttodependencyobjectbehavior-class-mspp-mefextensions-regions-behaviors)
 
 [Microsoft.Practices.Prism.MefExtensions.Regions.Behaviors Namespace](/patterns-practices/reference/mspp-mefextensions-regions-behaviors-namespace)
 	

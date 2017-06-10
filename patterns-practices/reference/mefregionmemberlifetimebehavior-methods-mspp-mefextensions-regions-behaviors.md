@@ -23,11 +23,11 @@ The [MefRegionMemberLifetimeBehavior](/patterns-practices/reference/mefregionmem
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td>[Attach](/patterns-practices/reference/regionbehavior-attach-method-mspp-regions)</td>
+<td>[Attach](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionbehavior.attach)</td>
 <td><div class="summary">
 Attaches the behavior to the region.
 </div>
-(Inherited from [RegionBehavior](/patterns-practices/reference/regionbehavior-class-mspp-regions).)</td>
+(Inherited from [RegionBehavior](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.regionbehavior).)</td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
@@ -71,11 +71,11 @@ Creates a shallow copy of the current [Object](http://msdn.microsoft.com/en-us/l
 </tr>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td>[OnAttach](/patterns-practices/reference/regionmemberlifetimebehavior-onattach-method-mspp-regions-behaviors)</td>
+<td>[OnAttach](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.regionmemberlifetimebehavior.onattach)</td>
 <td><div class="summary">
 Override this method to perform the logic after the behavior has been attached.
 </div>
-(Inherited from [RegionMemberLifetimeBehavior](/patterns-practices/reference/regionmemberlifetimebehavior-class-mspp-regions-behaviors).)</td>
+(Inherited from [RegionMemberLifetimeBehavior](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors.regionmemberlifetimebehavior).)</td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
