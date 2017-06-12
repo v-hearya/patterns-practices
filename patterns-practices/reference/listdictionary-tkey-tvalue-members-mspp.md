@@ -7,7 +7,7 @@ ms:mtpsurl: 'listdictionary-tkey-tvalue-members-mspp.md'
 
 
 # ListDictionary&lt;TKey, TValue&gt; Members
-The [ ListDictionary&lt;TKey, TValue&gt;](https://msdn.microsoft.com/library/microsoft.practices.prism.listdictionary%602) type exposes the following members.
+The [ ListDictionary&lt;TKey, TValue&gt;](/patterns-practices/reference/listdictionary-tkey-tvalue-class-mspp) type exposes the following members.
 
 ## Constructors
 
