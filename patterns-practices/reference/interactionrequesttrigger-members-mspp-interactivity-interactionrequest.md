@@ -239,7 +239,7 @@ Makes the current instance a frozen clone of the specified <a href="http://msdn.
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequesttrigger.geteventname">GetEventName</a></td>
+<td><a href="/patterns-practices/reference/interactionrequesttrigger-geteventname-method-mspp-interactivity-interactionrequest">GetEventName</a></td>
 <td><div class="summary">
 Specifies the name of the Event this EventTriggerBase is listening for.
 </div>
