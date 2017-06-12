@@ -6,9 +6,9 @@ ms:mtpsurl: 'delegatecommand-t-members-mspp-commands.md'
 ---
 
 
-# DelegateCommand&lt;T&gt; Members
+# DelegateCommand(T) Members
 
-The [DelegateCommand&lt;T&gt;](/patterns-practices/reference/delegatecommand-t-class-mspp-commands) type exposes the following members.
+The [DelegateCommand(T)](/patterns-practices/reference/delegatecommand-t-class-mspp-commands) type exposes the following members.
 
 ## Constructors
 
@@ -25,16 +25,16 @@ The [DelegateCommand&lt;T&gt;](/patterns-practices/reference/delegatecommand-t-c
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td>DelegateCommand&lt;T&gt;(Action&lt;T&gt;)</a></td>
+<td>DelegateCommand(T)(Action(T))</a></td>
 <td><div class="summary">
-Initializes a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands">DelegateCommand&lt;T&gt;</a>.
+Initializes a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands">DelegateCommand(T)</a>.
 </div></td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td>>DelegateCommand&lt;T&gt;(Action&lt;T&gt;, Func&lt;T, Boolean&gt;)</a></td>
+<td>DelegateCommand(T)(Action(T), Func(T, Boolean))</td>
 <td><div class="summary">
-Initializes a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands">DelegateCommand&lt;T&gt;</a>.
+Initializes a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands">DelegateCommand(T)</a>.
 </div></td>
 </tr>
 </tbody>
@@ -57,14 +57,14 @@ Initializes a new instance of <a href="/patterns-practices/reference/delegatecom
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
 <td><a href="/patterns-practices/reference/delegatecommand-t-canexecute-method-t-mspp-commands">CanExecute(T)</a></td>
 <td><div class="summary">
-Determines if the command can execute by invoked the <a href="http://msdn.microsoft.com/en-us/library/bb549151"> Func&lt;T, TResult&gt;</a> provided during construction.
+Determines if the command can execute by invoked the <a href="http://msdn.microsoft.com/en-us/library/bb549151"> Func(T, TResult)</a> provided during construction.
 </div></td>
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
 <td><a href="/patterns-practices/reference/delegatecommandbase-canexecute-method-mspp-commands">CanExecute(Object)</a></td>
 <td><div class="summary">
-Determines if the command can execute with the provided parameter by invoking the <a href="http://msdn.microsoft.com/en-us/library/bb549151"> Func&lt;T, TResult&gt;</a> supplied during construction.
+Determines if the command can execute with the provided parameter by invoking the <a href="http://msdn.microsoft.com/en-us/library/bb549151"> Func(T, TResult)</a> supplied during construction.
 </div>
 (Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
@@ -80,14 +80,14 @@ Determines whether the specified <a href="http://msdn.microsoft.com/en-us/librar
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
 <td><a href="/patterns-practices/reference/delegatecommand-t-execute-method-t-mspp-commands">Execute(T)</a></td>
 <td><div class="summary">
-Executes the command and invokes the <a href="http://msdn.microsoft.com/en-us/library/018hxwa8">Action&lt;(Of &lt;(T&gt;)&gt;)</a> provided during construction.
+Executes the command and invokes the <a href="http://msdn.microsoft.com/en-us/library/018hxwa8">Action((Of ((T))))</a> provided during construction.
 </div></td>
 </tr>
 <tr class="odd">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
 <td><a href="/patterns-practices/reference/delegatecommandbase-execute-method-mspp-commands">Execute(Object)</a></td>
 <td><div class="summary">
-Executes the command with the provided parameter by invoking the <a href="http://msdn.microsoft.com/en-us/library/018hxwa8">Action&lt;(Of &lt;(T&gt;)&gt;)</a> supplied during construction.
+Executes the command with the provided parameter by invoking the <a href="http://msdn.microsoft.com/en-us/library/018hxwa8">Action((Of ((T))))</a> supplied during construction.
 </div>
 (Inherited from <a href="/patterns-practices/reference/delegatecommandbase-class-mspp-commands">DelegateCommandBase</a>.)</td>
 </tr>
@@ -101,16 +101,16 @@ Allows an object to try to free resources and perform other cleanup operations b
 </tr>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)![Static member](/patterns-practices/reference/images/static.gif)</td>
-<td><a href="/patterns-practices/reference/delegatecommand-t-fromasynchandler-method-func-t-task-mspp-commands">FromAsyncHandler(Func&lt;T, Task&gt;)</a></td>
+<td><a href="/patterns-practices/reference/delegatecommand-t-fromasynchandler-method-func-t-task-mspp-commands">FromAsyncHandler(Func(T, Task))</a></td>
 <td><div class="summary">
-Factory method to create a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands"> DelegateCommand&lt;T&gt; </a> from an awaitable handler method.
+Factory method to create a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands"> DelegateCommand(T) </a> from an awaitable handler method.
 </div></td>
 </tr>
 <tr class="even">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)![Static member](/patterns-practices/reference/images/static.gif)</td>
-<td><a href="/patterns-practices/reference/delegatecommand-t-fromasynchandler-method-func-t-task-func-t-boolean-mspp-commands">FromAsyncHandler(Func&lt;T, Task&gt;, Func&lt;T, Boolean&gt;)</a></td>
+<td><a href="/patterns-practices/reference/delegatecommand-t-fromasynchandler-method-func-t-task-func-t-boolean-mspp-commands">FromAsyncHandler(Func(T, Task), Func(T, Boolean))</a></td>
 <td><div class="summary">
-Factory method to create a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands"> DelegateCommand&lt;T&gt; </a> from an awaitable handler method.
+Factory method to create a new instance of <a href="/patterns-practices/reference/delegatecommand-t-class-mspp-commands"> DelegateCommand(T) </a> from an awaitable handler method.
 </div></td>
 </tr>
 <tr class="odd">
@@ -242,6 +242,6 @@ Fired if the <a href="/patterns-practices/reference/delegatecommandbase-isactive
 
 ## See Also
 
-[DelegateCommand&lt;T&gt; Class](/patterns-practices/reference/delegatecommand-t-class-mspp-commands)
+[DelegateCommand(T) Class](/patterns-practices/reference/delegatecommand-t-class-mspp-commands)
 
 [Microsoft.Practices.Prism.Commands Namespace](/patterns-practices/reference/mspp-commands-namespace)
