@@ -20,9 +20,6 @@ Provides a way for objects involved in navigation to determine if a navigation r
 ```C#
 public interface IConfirmNavigationRequest : INavigationAware
 ```
-
-## Syntax
-
 ```VB
 'Declaration
 Public Interface IConfirmNavigationRequest
