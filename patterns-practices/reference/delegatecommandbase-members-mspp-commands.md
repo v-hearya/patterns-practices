@@ -129,7 +129,7 @@ This raises the <a href="/patterns-practices/reference/delegatecommandbase-isact
 Raises <a href="/patterns-practices/reference/delegatecommandbase-canexecutechanged-event-mspp-commands">CanExecuteChanged</a> on the UI thread so every command invoker can requery to check if the command can execute.
 <div>
 <h2 id="remarks">Remarks</h2>
-Note that this will trigger the execution of <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.commands.delegatecommandbase.canexecute(system.object)">CanExecute(Object)</a> once for each invoker.
+Note that this will trigger the execution of <a href="/patterns-practices/reference/delegatecommandbase-canexecute-method-mspp-commands">CanExecute(Object)</a> once for each invoker.
 </div>
 </div></td>
 </tr>
