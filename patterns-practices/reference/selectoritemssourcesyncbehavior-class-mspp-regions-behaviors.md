@@ -39,7 +39,7 @@ Public Class SelectorItemsSourceSyncBehavior
 
 [Microsoft.Practices.Prism.Regions.RegionBehavior](/patterns-practices/reference/mspp-regions-behaviors-namespace)
 
-    Microsoft.Practices.Prism.Regions.Behaviors.SelectorItemsSourceSyncBehavior
+Microsoft.Practices.Prism.Regions.Behaviors.SelectorItemsSourceSyncBehavior
     
 
 [Microsoft.Practices.Prism.MefExtensions.Regions.Behaviors.MefSelectorItemsSourceSyncBehavior](/patterns-practices/reference/mefselectoritemssourcesyncbehavior-class-mspp-mefextensions-regions-behaviors)

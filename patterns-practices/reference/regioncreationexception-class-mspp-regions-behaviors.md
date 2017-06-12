@@ -33,7 +33,7 @@ Public Class RegionCreationException
 
 [System.Object](http://msdn.microsoft.com/en-us/library/e5kfa45b)
 
-  [System.Exception](/patterns-practices/reference/ieventsubscription-interface-mspp-pubsubevents)
+  [System.Exception](http://msdn2.microsoft.com/en-us/library/c18k6c59)
 
     Microsoft.Practices.Prism.Regions.Behaviors.RegionCreationException
 

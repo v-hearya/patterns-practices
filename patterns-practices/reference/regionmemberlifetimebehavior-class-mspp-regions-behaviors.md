@@ -54,6 +54,6 @@ The order of checks are:
 
 ## See Also
 
-[RegionMemberLifetimeBehavior Members](https://msdn.microsoft.com/allmembers.t:microsoft.practices.prism.regions.behaviors.regionmemberlifetimebehavior)
+[RegionMemberLifetimeBehavior Members](/patterns-practices/reference/regionmemberlifetimebehavior-members-mspp-regions-behaviors)
 
-[Microsoft.Practices.Prism.Regions.Behaviors Namespace](https://msdn.microsoft.com/library/microsoft.practices.prism.regions.behaviors)
+[Microsoft.Practices.Prism.Regions.Behaviors Namespace](/patterns-practices/reference/mspp-regions-behaviors-namespace)

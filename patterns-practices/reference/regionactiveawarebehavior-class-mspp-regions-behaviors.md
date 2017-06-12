@@ -36,8 +36,9 @@ Public Class RegionActiveAwareBehavior
 
 [System.Object](http://msdn.microsoft.com/en-us/library/e5kfa45b)
 
-  Microsoft.Practices.Prism.Regions.Behaviors.RegionActiveAwareBehavior
-    [Microsoft.Practices.Prism.MefExtensions.Regions.Behaviors.MefRegionActiveAwareBehavior](/patterns-practices/reference/mefregionactiveawarebehavior-class-mspp-mefextensions-regions-behaviors)
+Microsoft.Practices.Prism.Regions.Behaviors.RegionActiveAwareBehavior
+
+[Microsoft.Practices.Prism.MefExtensions.Regions.Behaviors.MefRegionActiveAwareBehavior](/patterns-practices/reference/mefregionactiveawarebehavior-class-mspp-mefextensions-regions-behaviors)
 
 ## See Also
 
