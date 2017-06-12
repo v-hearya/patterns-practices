@@ -8,7 +8,7 @@ ms:mtpsurl: 'interactionrequest-t-members-mspp-interactivity-interactionrequest.
 
 # InteractionRequest&lt;T&gt; Members
 
-The [InteractionRequest&lt;T&gt;](https://msdn.microsoft.com/library/microsoft.practices.prism.interactivity.interactionrequest.interactionrequest%601) type exposes the following members.
+The [InteractionRequest&lt;T&gt;](/patterns-practices/reference/interactionrequest-t-class-mspp-interactivity-interactionrequest) type exposes the following members.
 
 ## Constructors
 
