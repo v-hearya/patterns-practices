@@ -25,9 +25,9 @@ The [DefaultDispatcher](/patterns-practices/reference/defaultdispatcher-class-ms
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="/patterns-practices/reference/defaultdispatcher-class-mspp-events">DefaultDispatcher</a></td>
+<td>DefaultDispatcher</td>
 <td><div class="summary">
-Initializes a new instance of the <a href="https://msdn.microsoft.com/library/microsoft.practices.prism.events.defaultdispatcher">DefaultDispatcher</a> class
+Initializes a new instance of the <a href="/patterns-practices/reference/defaultdispatcher-class-mspp-events">DefaultDispatcher</a> class
 </div></td>
 </tr>
 </tbody>
