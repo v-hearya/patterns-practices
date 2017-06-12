@@ -8,7 +8,7 @@ ms:mtpsurl: 'configurationmodulecatalog-properties-mspp-modularity.md'
 
 # ConfigurationModuleCatalog Properties
 
-The [ConfigurationModuleCatalog](https://msdn.microsoft.com/library/microsoft.practices.prism.modularity.configurationmodulecatalog) type exposes the following members.
+The [ConfigurationModuleCatalog](/patterns-practices/reference/configurationmodulecatalog-class-mspp-modularity) type exposes the following members.
 
 ## Properties
 
