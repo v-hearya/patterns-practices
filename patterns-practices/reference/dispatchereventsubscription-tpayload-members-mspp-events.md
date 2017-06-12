@@ -8,7 +8,7 @@ ms:mtpsurl: 'dispatchereventsubscription-tpayload-members-mspp-events.md'
 
 # DispatcherEventSubscription&lt;TPayload&gt; Members
 
-The [ DispatcherEventSubscription&lt;TPayload&gt;](https://msdn.microsoft.com/library/microsoft.practices.prism.events.dispatchereventsubscription%601) type exposes the following members.
+The [DispatcherEventSubscription&lt;TPayload&gt;](/patterns-practices/reference/dispatchereventsubscription-tpayload-class-mspp-events) type exposes the following members.
 
 ## Constructors
 
@@ -25,7 +25,7 @@ The [ DispatcherEventSubscription&lt;TPayload&gt;](https://msdn.microsoft.com/l
 <tbody>
 <tr class="odd">
 <td>![Public method](/patterns-practices/reference/images/public-method.gif)</td>
-<td><a href="https://msdn.microsoft.com/library/microsoft.practices.prism.events.dispatchereventsubscription%601.">DispatcherEventSubscription&lt;TPayload&gt;</a></td>
+<td><a href="/patterns-practices/reference/dispatchereventsubscription-tpayload-class-mspp-events">DispatcherEventSubscription&lt;TPayload&gt;</a></td>
 <td><div class="summary">
 Creates a new instance of BackgroundEventSubscription.
 </div></td>
