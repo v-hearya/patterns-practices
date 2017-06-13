@@ -8,7 +8,7 @@ ms:mtpsurl: 'selectorregionadapter-adapt-method-mspp-regions.md'
 
 # SelectorRegionAdapter.Adapt Method
 
-Adapts an [Selector](http://msdn.microsoft.com/en-us/library/ms595227) to an [IRegion](/patterns-practices/reference/iregion-class-mspp-regions).
+Adapts an [Selector](http://msdn.microsoft.com/en-us/library/ms595227) to an [IRegion](/patterns-practices/reference/iregion-interface-mspp-regions).
 
 **Namespace:** [Microsoft.Practices.Prism.Regions](/patterns-practices/reference/mspp-regions-namespace)
 
@@ -34,7 +34,7 @@ Protected Overrides Sub Adapt (
 ### Parameters
 
 *region*  
-Type: [Microsoft.Practices.Prism.Regions.IRegion](/patterns-practices/reference/iregion-class-mspp-regions)   
+Type: [Microsoft.Practices.Prism.Regions.IRegion](/patterns-practices/reference/iregion-interface-mspp-regions)   
 The new region being used.
 
 *regionTarget*  
