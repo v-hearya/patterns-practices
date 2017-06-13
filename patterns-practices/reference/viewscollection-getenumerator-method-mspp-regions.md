@@ -29,6 +29,18 @@ A [IEnumerator&lt;T&gt;](http://msdn.microsoft.com/en-us/library/78dfe2yb) that 
 
 [IEnumerable&lt;T&gt;.GetEnumerator](http://msdn.microsoft.com/en-us/library/s793z9y2)
 
+# ViewsCollection.GetEnumerator Method
+
+Returns an enumerator that iterates through the collection.
+
+**Namespace:** [Microsoft.Practices.Prism.Regions](/patterns-practices/reference/mspp-regions-namespace)
+
+**Assembly:** Microsoft.Practices.Prism.Composition (in Microsoft.Practices.Prism.Composition.dll)
+
+**Version:** 5.0.0.0 (5.0.0.0)
+
+## Syntax
+
 ```VB
 'Declaration
 Public Function GetEnumerator As IEnumerator(Of Object)
