@@ -17,13 +17,13 @@ The default sort algorithm.
 **Version:** 5.0.0.0 (5.0.0.0)
 
 ## Syntax
-```C#
+```csharp
 public static int DefaultSortComparison(
 	Object x,
 	Object y
 )
 ```
-```VB
+```vb
 'Declaration
 Public Shared Function DefaultSortComparison ( 
 	x As Object,
