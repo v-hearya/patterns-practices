@@ -17,12 +17,12 @@ Marks the specified view as inactive.
 **Version:** 5.0.0.0 (5.0.0.0)
 
 ## Syntax
-```C#
+```csharp
 public virtual void Deactivate(
 	Object view
 )
 ```
-```VB
+```vb
 'Declaration
 Public Overridable Sub Deactivate ( 
 	view As Object
