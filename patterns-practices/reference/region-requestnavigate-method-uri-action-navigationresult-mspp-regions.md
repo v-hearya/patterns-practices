@@ -48,7 +48,7 @@ A callback to execute when the navigation request is completed.
 
 [Microsoft.Practices.Prism.Regions Namespace](/patterns-practices/reference/mspp-regions-namespace)
 
-------------------------------------------------------
+
 
 # Region.RequestNavigate Method (Uri, Action (Of NavigationResult))
 
