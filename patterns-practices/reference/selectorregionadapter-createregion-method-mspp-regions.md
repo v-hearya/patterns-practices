@@ -8,7 +8,7 @@ ms:mtpsurl: 'selectorregionadapter-createregion-method-mspp-regions.md'
 
 # SelectorRegionAdapter.CreateRegion Method
 
-Creates a new instance of [Region](/patterns-practices/reference/region-class-mspp-regions).
+Creates a new instance of [Region](/patterns-practices/reference/iregion-interface-mspp-regions).
 
 **Namespace:** [Microsoft.Practices.Prism.Regions](/patterns-practices/reference/mspp-regions-namespace)
 
@@ -27,7 +27,7 @@ Protected Overrides Function CreateRegion As IRegion
 ### Return Value
 
 Type: [IRegion](/patterns-practices/reference/iregion-class-mspp-regions)   
-A new instance of [Region](/patterns-practices/reference/region-class-mspp-regions).
+A new instance of [Region](/patterns-practices/reference/iregion-interface-mspp-regions).
 
 ## See Also
 
