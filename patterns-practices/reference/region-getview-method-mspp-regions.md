@@ -17,12 +17,12 @@ Returns the view instance that was added to the region using a specific name.
 **Version:** 5.0.0.0 (5.0.0.0)
 
 ## Syntax
-```C#
+```csharp
 public virtual Object GetView(
 	string viewName
 )
 ```
-```VB
+```vb
 'Declaration
 Public Overridable Function GetView ( 
 	viewName As String
