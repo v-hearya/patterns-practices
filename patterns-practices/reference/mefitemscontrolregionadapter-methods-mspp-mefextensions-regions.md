@@ -5,7 +5,6 @@ ms:assetid: 'Methods.T:Microsoft.Practices.Prism.MefExtensions.Regions.MefItemsC
 ms:mtpsurl: 'mefitemscontrolregionadapter-methods-mspp-mefextensions-regions.md'
 ---
 
-
 # MefItemsControlRegionAdapter Methods
 
 The [MefItemsControlRegionAdapter](https://msdn.microsoft.com/library/microsoft.practices.prism.mefextensions.regions.mefitemscontrolregionadapter) type exposes the following members.
@@ -110,6 +109,27 @@ Creates a shallow copy of the current <a href="http://msdn.microsoft.com/en-us/l
 Returns a string that represents the current object.
 </div>
 (Inherited from <a href="http://msdn.microsoft.com/en-us/library/e5kfa45b">Object</a>.)</td>
+</tr>
+</tbody>
+</table>
+
+## Explicit Interface Implementations
+
+<table>
+<tr class="header">
+<th> </th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even">
+<td>![Explicit interface implemetation](/patterns-practices/reference/images/public-interface.gif)![Private Method](/patterns-practices/reference/images/clear.gif)</td>
+<td>[IRegionAdapter.Initialize](https://msdn.microsoft.com/en-us/library/gg418937(v=pandp.38))</td>
+<td><div class="summary">
+Adapts an object and binds it to a new [IRegion](/patterns-practices/reference/iregion-interface-mspp-regions).
+</div>
+(Inherited from [RegionAdapterBase&lt;T&gt;](https://msdn.microsoft.com/en-us/library/gg431546(v=pandp.38)).)</td>
 </tr>
 </tbody>
 </table>
