@@ -181,5 +181,5 @@ Raised when a navigation request fails.
 
 ## See Also
 
-[IRegionNavigationService Interface](/patterns-practices/reference/mspp-regions-namespace.iregionnavigationservice)  
+[IRegionNavigationService Interface](/patterns-practices/reference/iregionnavigationservice-interface-mspp-regions)  
 [Microsoft.Practices.Prism.Regions Namespace](/patterns-practices/reference/mspp-regions-namespace)
