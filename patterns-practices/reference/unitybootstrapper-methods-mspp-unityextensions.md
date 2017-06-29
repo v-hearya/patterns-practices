@@ -158,7 +158,7 @@ Registers in the IUnityContainer the [Type](http://msdn.microsoft.com/en-us/libr
 </tr>
 <tr class="even">
 <td>![Protected method](/patterns-practices/reference/images/protmethod.gif)</td>
-<td>[RegisterTypeIfMissing](/patterns-practices/reference/unitybootstrapper-registertypeifmissing-method-mspp-unityextensions))</td>
+<td>[RegisterTypeIfMissing](/patterns-practices/reference/unitybootstrapper-registertypeifmissing-method-mspp-unityextensions)</td>
 <td><div class="summary">
 Registers a type in the container only if that type was not already registered.
 </div></td>
